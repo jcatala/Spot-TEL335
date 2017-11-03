@@ -1,0 +1,75 @@
+import { Component } from '@angular/core';
+import { NavController } from 'ionic-angular';
+
+import { Geolocation, Geoposition} from "@ionic-native/geolocation";
+import {
+  GoogleMaps,
+  GoogleMap,
+  GoogleMapsEvent,
+  LatLng,
+  CameraPosition,
+  MarkerOptions,
+  Marker
+} from "@ionic-native/google-maps";
+
+@Component({
+  selector: 'page-home',
+  templateUrl: 'home.html'
+})
+export class HomePage {
+
+  constructor(public navCtrl: NavController,
+              public geolocation: Geolocation,
+              public googleMaps: GoogleMaps){
+
+  }
+
+  obtenerPosicion():any{
+    this.geolocation.getCurrentPosition().then(response => {
+      this.loadMap(response);
+    })
+      .catch(error => {
+        console.log(error);
+      })
+  }
+
+  loadMap(positiona: Geoposition){
+    let latitude = positiona.coords.latitude;
+    let longitud = positiona.coords.longitude;
+    console.log(latitude,longitud);
+
+    //CREA UN MAPA PASANDO UN ELEMENTO HTML:D
+
+    let element: HTMLElement = document.getElementById('map');
+
+    let map: GoogleMap = this.googleMaps.create(element);
+
+    //CREAT LATITUDE OBJECT
+
+    let myPosition: LatLng = new LatLng(latitude, longitud);
+
+    // CAMERA POSITION
+
+    let position: CameraPosition<LatLng> = {
+      target: myPosition,
+      zoom: 18,
+      tilt: 30
+    };
+
+    map.one(GoogleMapsEvent.MAP_READY).then(()=> {
+      console.log('MAP RUDY');
+
+      //camera to pos
+      map.moveCamera(position);
+      //new marker
+      let markerOptions: MarkerOptions = {
+        position: myPosition,
+        title: 'U here'
+      };
+      map.addMarker(markerOptions);
+    });
+
+}
+
+}
+
