@@ -11,6 +11,10 @@ import { Geolocation } from "@ionic-native/geolocation";
 import { GoogleMaps } from "@ionic-native/google-maps";
 
 
+import { HttpModule} from "@angular/http";
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -18,7 +22,8 @@ import { GoogleMaps } from "@ionic-native/google-maps";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

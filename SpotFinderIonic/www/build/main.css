@@ -25681,6 +25681,41 @@ ion-navbar.toolbar {
 
 page-home #map {
   display: block;
-  height: 100%;
+  height: 80%;
   width: 100%;
+}
+
+page-home .child-item {
+  background: white;
+  margin-bottom: 2px;
+}
+
+page-home .section {
+  background: white;
+  color: black;
+  margin-bottom: 2px;
+}
+
+page-home .section-active {
+  background: #488aff;
+  color: white;
+}
+
+page-home .child {
+  background: white;
+  color: black;
+  margin-bottom: 2px;
+}
+
+page-home .child-item {
+  background: white;
+  padding: 10px;
+}
+
+page-home .label {
+  margin: 0px;
+}
+
+page-home .list {
+  margin-bottom: 4px;
 }

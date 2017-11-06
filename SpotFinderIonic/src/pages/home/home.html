@@ -9,4 +9,29 @@
 
 <ion-content>
   <div id='map'></div>
+  <ion-list class="accordion-list">
+    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
+      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
+        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>
+        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>
+        {{ item.name }}
+      </button>
+      <ion-list *ngIf="item.children && item.open" no-lines>
+        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
+          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">
+          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>
+          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>
+          {{ child.name }}
+          </button>
+          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+            <h2>{{ child.name }}</h2>
+            <p text-lowercase >{{child.information}}</p>
+            <button ion-button outline item-end (click)="marker()">{{child.information}}</button>
+          </ion-item>
+
+        </ion-list-header>
+
+      </ion-list>
+    </ion-list-header>
+  </ion-list>
 </ion-content>
