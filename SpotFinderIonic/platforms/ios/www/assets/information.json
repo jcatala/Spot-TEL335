@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "name": "xTreme",
+      "children": [
+        {
+          "name": "bmx",
+          "information": "bmx - SPOTS"
+        },
+        {
+          "name": "Aggressive Skate",
+          "information": "Aggressve roller -SPOTS"
+        },
+        {
+          "name": "Skateboard",
+          "information": "Skateboard - SPOTS"
+        }
+      ]
+    },
+    {
+      "name": "Collectives:D",
+      "children": [
+        {
+          "name": "Basketball",
+          "information": "Basketballs - courts"
+        },
+        {
+          "name": "Football",
+          "information": "Footballs - courts"
+        },
+        {
+          "name": "Tennis",
+          "information": "Tennis - courts"
+        }
+      ]
+    }
+  ]
+}

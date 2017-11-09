@@ -72,6 +72,10 @@ var HomePage = (function () {
         localData.subscribe(function (data) {
             _this.information = data;
         });
+        var bdjson = this.http.get('https://spottel335.firebaseio.com/.json').map(function (response) { return response.json().items; });
+        bdjson.subscribe(function (datat) {
+            _this.bcoplete = datat;
+        });
     }
     HomePage.prototype.toggleSection = function (i) {
         this.information[i].open = !this.information[i].open;
@@ -86,12 +90,22 @@ var HomePage = (function () {
             title: "probando12"
         };
         this.map.addMarker(mk);
+        var total = this.bcoplete['bmx'].split('#');
+        var latitude = total[0];
+        var longitude = total[1];
+        var pos3 = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](latitude, longitude);
+        var mk2 = {
+            position: pos3,
+            title: 'probando jotason'
+        };
+        this.map.addMarker(mk2);
     };
     HomePage.prototype.ionViewDidLoad = function () {
         this.obtenerPosicion();
     };
     HomePage.prototype.obtenerPosicion = function () {
         var _this = this;
+        //this.geolocation.watchPosition().subscribe().then
         this.geolocation.getCurrentPosition().then(function (response) {
             _this.loadMap(response);
         })

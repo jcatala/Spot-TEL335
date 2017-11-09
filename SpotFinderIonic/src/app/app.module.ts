@@ -12,7 +12,8 @@ import { GoogleMaps } from "@ionic-native/google-maps";
 
 
 import { HttpModule} from "@angular/http";
-
+import { Firebase} from "@ionic-native/firebase";
+import { IonicStorageModule } from "@ionic/storage";
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HttpModule} from "@angular/http";
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    HttpModule
+    HttpModule,
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

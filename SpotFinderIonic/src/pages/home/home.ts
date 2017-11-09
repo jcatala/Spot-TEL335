@@ -13,25 +13,62 @@ import {
   MarkerOptions,
   Marker
 } from "@ionic-native/google-maps";
-import {Http} from "@angular/http";
-
+import { Http} from "@angular/http";
+import { Storage } from "@ionic/storage";
+import { Firebase} from "@ionic-native/firebase";
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
   information: any[];
+  maindata: any;
+
+  public items: Array<any> = [];
+
+
   map: GoogleMap;
   constructor(public navCtrl: NavController,
               public geolocation: Geolocation,
               public googleMaps: GoogleMaps,
-              private http: Http){
+              private http: Http,
+              private storage: Storage,
+              private firebase: Firebase){
     let localData = this.http.get('assets/information.json').map(res => res.json().items);
     localData.subscribe(data => {
       this.information = data;
     });
+    this.maindata = null;
+    this.maindata = this.http.get('http://spottel335.firebaseio.com/.json').map(res => res.json()).subscribe(data => {
+      this.maindata = data.data.children;
+      console.log(this.maindata);
+    });
+
+    this.firebase.getToken().then(token => console.log('token is ${token}'))
+      .catch(error => console.error('error getting token', error));
+
+    this.firebase.onTokenRefresh().subscribe((token: string) => console.log('Got new token ${token}'));
+    
   }
+
+  //FIREBASE API
+
+
+  //
+
+
+
+
+
+
+
+
+
+
+
+
 
   toggleSection(i){
     this.information[i].open = !this.information[i].open;
@@ -39,6 +76,10 @@ export class HomePage {
   toggleItem(i,j) {
     this.information[i].children[j].open = !this.information[i].childen[j].open;
 
+  }
+
+  getJson(){
+    return this.http.get('https://spottel335.firebaseio.com/.json').map( res => res.json());
   }
 
   marker(){
@@ -49,6 +90,16 @@ export class HomePage {
     };
 
     this.map.addMarker(mk);
+    console.log(this.storage.get('maindata'));
+ /*   let latitude = total[0];
+    let longitude = total[1];
+    let pos3: LatLng = new LatLng(latitude, longitude);
+    let mk2: MarkerOptions = {
+      position: pos3,
+      title: 'probando jotason'
+    };
+    this.map.addMarker(mk2);
+*/
   }
 
   ionViewDidLoad(){
@@ -57,7 +108,8 @@ export class HomePage {
   }
 
   obtenerPosicion():any{
-    this.geolocation.getCurrentPosition().then(response => {
+    //this.geolocation.watchPosition().subscribe().then
+    this.geolocation.getCurrentPosition().then( response => {
       this.loadMap(response);
     })
       .catch(error => {
@@ -114,6 +166,7 @@ export class HomePage {
     });
 
 }
+
 
 
 
