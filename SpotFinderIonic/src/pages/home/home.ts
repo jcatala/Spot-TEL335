@@ -44,7 +44,7 @@ export class HomePage {
     });
 
 
-    let localbd = this.http.get('https://spottel335.firebaseio.com/.json')
+    let localbd = this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
       .map(res => res.json().items);
     localbd.subscribe(data => {
       this.maindata = data;
@@ -70,14 +70,14 @@ export class HomePage {
   }
 
   getJson(){
-    return this.http.get('https://spottel335.firebaseio.com/.json').map( res => res.json());
+    return this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json').map( res => res.json());
   }
 
   marker(what){
 
     this.map.clear();
 
-    console.log(this.maindata) + "maindata es";
+
 
     let pos2: LatLng = new LatLng(-33,-75);
     let mk: MarkerOptions = {
@@ -124,12 +124,13 @@ export class HomePage {
     */
 
 
+    console.log("el len es: " + this.items[0]['bmx'][0].length());
 
-    for(let i = 0; i < this.items[what].length; i++){
-      if(!isUndefined(this.items[what][i])){
+    for(let i = 0; i < this.items.length; i++){
+      if(!isUndefined(this.items[i][what]) && this.items[i][what]){
         let pos_parcial = String(this.items[i][String(what)]);
         console.log(this.items[i][what]);
-        let pos_parcial_split = pos_parcial.split("#");
+        let pos_parcial_split = pos_parcial.split(",");
         let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]),parseFloat(pos_parcial_split[1]));
         let marker: MarkerOptions = {
           position: pos_marker,
@@ -147,7 +148,7 @@ export class HomePage {
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
 
-    this.http.get('https://spottel335.firebaseio.com/.json')
+    this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
       .map(res => res.json()).subscribe(data => {
       this.items.push(data);
       console.log("data: ", data, "items:", this.items[0]['bmx'], "maindata:");
