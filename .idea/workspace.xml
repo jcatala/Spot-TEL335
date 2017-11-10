@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3a3d71-aec6-4204-9655-c9a440ecb6dc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locations/chile/.valparaiso.json.swp" afterPath="$PROJECT_DIR$/locations/chile/.valparaiso.json.swp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" />
@@ -43,7 +44,7 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
+            <state relative-caret-position="113">
               <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
               <folding />
             </state>
@@ -75,8 +76,8 @@
       <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="126" column="49" lean-forward="false" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+            <state relative-caret-position="18">
+              <caret line="126" column="35" lean-forward="false" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
                 <element signature="e#1923#2448#0" expanded="false" />
@@ -274,12 +275,12 @@
       <workItem from="1510247529138" duration="3229000" />
       <workItem from="1510250782346" duration="2923000" />
       <workItem from="1510288297973" duration="3424000" />
-      <workItem from="1510340952699" duration="7557000" />
+      <workItem from="1510340952699" duration="8585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47296000" />
+    <option name="totallyTimeSpent" value="48324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="27" width="1366" height="741" extended-state="6" />
@@ -613,14 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -647,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -673,6 +656,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -683,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="126" column="49" lean-forward="false" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+        <state relative-caret-position="18">
+          <caret line="126" column="35" lean-forward="false" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
             <element signature="e#1923#2448#0" expanded="false" />
