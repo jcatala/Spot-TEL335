@@ -47,7 +47,6 @@ webpackEmptyAsyncContext.id = 150;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ionic_angular_util_util__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -57,7 +56,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -78,7 +76,7 @@ var HomePage = (function () {
         localData.subscribe(function (data) {
             _this.information = data;
         });
-        var localbd = this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+        var localbd = this.http.get('https://spottel335.firebaseio.com/.json')
             .map(function (res) { return res.json().items; });
         localbd.subscribe(function (data) {
             _this.maindata = data;
@@ -97,14 +95,13 @@ var HomePage = (function () {
     };
     HomePage.prototype.marker = function (what) {
         this.map.clear();
-        console.log(this.maindata);
+        console.log(this.maindata) + "maindata es";
         var pos2 = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](-33, -75);
         var mk = {
             position: pos2,
             title: "probando12"
         };
         this.map.addMarker(mk);
-        console.log(this.storage.get('maindata'));
         /*   let latitude = total[0];
            let longitude = total[1];
            let pos3: LatLng = new LatLng(latitude, longitude);
@@ -125,27 +122,40 @@ var HomePage = (function () {
            this.map.addMarker(mk3);
        */
         //INTENTO DE FUNCION
-        for (var i = 0; i < this.items.length; i++) {
-            if (!Object(__WEBPACK_IMPORTED_MODULE_7_ionic_angular_util_util__["p" /* isUndefined */])(this.items[i][what])) {
-                var pos_parcial = String(this.items[i][String(what)]);
-                var pos_parcial_split = pos_parcial.split("#");
-                var pos_marker = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
-                var marker = {
-                    position: pos_marker,
-                    title: what
+        console.log("items: " + this.items[0][what]);
+        for (var i = 0; i < this.items[0][what].length(); i++) {
+            var pos_parcial = String(this.items[0][what][i]);
+            console.log(pos_parcial);
+            var pos_parcial_split = pos_parcial.split("#");
+            var pos_marker = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+            var marker = {
+                position: pos_marker,
+                title: what
+            };
+            this.map.addMarker(marker);
+        }
+        /*
+            for(let i = 0; i < this.items[what].length; i++){
+              if(!isUndefined(this.items[what][i])){
+                let pos_parcial = String(this.items[i][String(what)]);
+                console.log(this.items[i][what]);
+                let pos_parcial_split = pos_parcial.split("#");
+                let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]),parseFloat(pos_parcial_split[1]));
+                let marker: MarkerOptions = {
+                  position: pos_marker,
+                  title: what
                 };
                 this.map.addMarker(marker);
                 console.log(what);
-            }
-            ;
-        }
-        ;
+              };
+            };
+        */
     };
     HomePage.prototype.ionViewDidLoad = function () {
         var _this = this;
         this.obtenerPosicion();
         //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
-        this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+        this.http.get('https://spottel335.firebaseio.com/.json')
             .map(function (res) { return res.json(); }).subscribe(function (data) {
             _this.items.push(data);
             console.log("data: ", data, "items:", _this.items[0]['bmx'], "maindata:");

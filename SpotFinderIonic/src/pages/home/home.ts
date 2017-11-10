@@ -44,7 +44,7 @@ export class HomePage {
     });
 
 
-    let localbd = this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+    let localbd = this.http.get('https://spottel335.firebaseio.com/.json')
       .map(res => res.json().items);
     localbd.subscribe(data => {
       this.maindata = data;
@@ -77,7 +77,7 @@ export class HomePage {
 
     this.map.clear();
 
-    console.log(this.maindata);
+    console.log(this.maindata) + "maindata es";
 
     let pos2: LatLng = new LatLng(-33,-75);
     let mk: MarkerOptions = {
@@ -86,7 +86,6 @@ export class HomePage {
     };
 
     this.map.addMarker(mk);
-    console.log(this.storage.get('maindata'));
  /*   let latitude = total[0];
     let longitude = total[1];
     let pos3: LatLng = new LatLng(latitude, longitude);
@@ -109,10 +108,28 @@ export class HomePage {
 
     //INTENTO DE FUNCION
 
-    for(let i = 0; i < this.items.length; i++){
-      if(!isUndefined(this.items[i][what])){
+/*
+    for(let i = 0; i < this.items[0][what].length(); i++){
+
+      let pos_parcial = String(this.items[0][what][i]);
+      console.log(pos_parcial);
+      let pos_parcial_split = pos_parcial.split("#");
+      let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+      let marker: MarkerOptions = {
+          position: pos_marker,
+          title: what
+      };
+      this.map.addMarker(marker);
+    }
+    */
+
+
+
+    for(let i = 0; i < this.items[what].length; i++){
+      if(!isUndefined(this.items[what][i])){
         let pos_parcial = String(this.items[i][String(what)]);
-        let pos_parcial_split = pos_parcial.split(",");
+        console.log(this.items[i][what]);
+        let pos_parcial_split = pos_parcial.split("#");
         let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]),parseFloat(pos_parcial_split[1]));
         let marker: MarkerOptions = {
           position: pos_marker,
@@ -130,7 +147,7 @@ export class HomePage {
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
 
-    this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+    this.http.get('https://spottel335.firebaseio.com/.json')
       .map(res => res.json()).subscribe(data => {
       this.items.push(data);
       console.log("data: ", data, "items:", this.items[0]['bmx'], "maindata:");
