@@ -124,7 +124,7 @@ export class HomePage {
     */
 
 
-    console.log("el len es: " + this.items[0]['bmx'][0].length());
+    console.log("el len es: " + this.items.sports);
 
     for(let i = 0; i < this.items.length; i++){
       if(!isUndefined(this.items[i][what]) && this.items[i][what]){
