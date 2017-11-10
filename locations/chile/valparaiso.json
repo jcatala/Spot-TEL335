@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "Basketball",
-			"places": [
+			"places": {
 				"coord": "-33.0353539,-71.5933722",
 				"description": "Canchas 5x5 USM"
 		}
