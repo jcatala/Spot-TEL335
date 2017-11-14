@@ -137,7 +137,7 @@ var HomePage = (function () {
               this.map.addMarker(marker);
             }
             */
-        console.log(this.items[0].open());
+        console.log();
         for (var i = 0; i < this.items.length; i++) {
             if (!Object(__WEBPACK_IMPORTED_MODULE_7_ionic_angular_util_util__["p" /* isUndefined */])(this.items[i][what]) && this.items[i][what]) {
                 var pos_parcial = String(this.items[i][String(what)]);

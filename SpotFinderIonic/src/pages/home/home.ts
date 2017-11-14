@@ -124,23 +124,21 @@ export class HomePage {
     */
 
 
-    console.log(this.items[0].open());
-
+    console.log(   );
     for(let i = 0; i < this.items.length; i++){
-      if(!isUndefined(this.items[i][what]) && this.items[i][what]){
+      let sport = String(this.items[i][0]);
+      if (sport == what){
         let pos_parcial = String(this.items[i][String(what)]);
-        console.log(this.items[i][what]);
         let pos_parcial_split = pos_parcial.split(",");
-        let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]),parseFloat(pos_parcial_split[1]));
+        let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
         let marker: MarkerOptions = {
           position: pos_marker,
-          title: what
+          title: String(this.items[i][3])
         };
         this.map.addMarker(marker);
-        console.log(what);
-      };
-    };
-
+      }
+    }
+    
   }
 
   ionViewDidLoad(){
