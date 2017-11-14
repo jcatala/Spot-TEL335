@@ -13,53 +13,25 @@ import {
   MarkerOptions,
   Marker
 } from "@ionic-native/google-maps";
-import { Http} from "@angular/http";
-import { Storage } from "@ionic/storage";
-import { Firebase} from "@ionic-native/firebase";
+import {Http} from "@angular/http";
 
-import {isUndefined} from "ionic-angular/util/util";
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
-
 export class HomePage {
   information: any[];
-  maindata: any[];
-
-  public items: Array<any> = [];
-
-
   map: GoogleMap;
-
   constructor(public navCtrl: NavController,
               public geolocation: Geolocation,
               public googleMaps: GoogleMaps,
-              private http: Http,
-              private storage: Storage) {
+              private http: Http){
     let localData = this.http.get('assets/information.json').map(res => res.json().items);
     localData.subscribe(data => {
       this.information = data;
     });
-
-
-    let localbd = this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
-      .map(res => res.json().items);
-    localbd.subscribe(data => {
-      this.maindata = data;
-    });
-
-
   }
-
-  //FIREBASE API
-
-
-  //
-
-
-
 
   toggleSection(i){
     this.information[i].open = !this.information[i].open;
@@ -69,16 +41,7 @@ export class HomePage {
 
   }
 
-  getJson(){
-    return this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json').map( res => res.json());
-  }
-
-  marker(what){
-
-    this.map.clear();
-
-
-
+  marker(){
     let pos2: LatLng = new LatLng(-33,-75);
     let mk: MarkerOptions = {
       position: pos2,
@@ -86,77 +49,15 @@ export class HomePage {
     };
 
     this.map.addMarker(mk);
- /*   let latitude = total[0];
-    let longitude = total[1];
-    let pos3: LatLng = new LatLng(latitude, longitude);
-    let mk2: MarkerOptions = {
-      position: pos3,
-      title: 'probando jotason'
-    };
-    this.map.addMarker(mk2);
-
-    let s1 = String(this.items[0]['bmx']);
-    let as = s1.split('#');
-    console.log(as,as[0]);
-    let vina: LatLng = new LatLng(parseFloat(as[0]),parseFloat(as[1]));
-    let mk3: MarkerOptions = {
-      position: vina,
-      title: "esta alive"
-    };
-    this.map.addMarker(mk3);
-*/
-
-    //INTENTO DE FUNCION
-
-/*
-    for(let i = 0; i < this.items[0][what].length(); i++){
-
-      let pos_parcial = String(this.items[0][what][i]);
-      console.log(pos_parcial);
-      let pos_parcial_split = pos_parcial.split("#");
-      let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
-      let marker: MarkerOptions = {
-          position: pos_marker,
-          title: what
-      };
-      this.map.addMarker(marker);
-    }
-    */
-
-
-    console.log(   );
-    for(let i = 0; i < this.items.length; i++){
-      let sport = String(this.items[i][0]);
-      if (sport == what){
-        let pos_parcial = String(this.items[i][String(what)]);
-        let pos_parcial_split = pos_parcial.split(",");
-        let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
-        let marker: MarkerOptions = {
-          position: pos_marker,
-          title: String(this.items[i][3])
-        };
-        this.map.addMarker(marker);
-      }
-    }
-    
   }
 
   ionViewDidLoad(){
     this.obtenerPosicion();
 
-    //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
-
-    this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
-      .map(res => res.json()).subscribe(data => {
-      this.items.push(data);
-      console.log("data: ", data, "items:", this.items[0]['bmx'], "maindata:");
-    });
-
   }
 
   obtenerPosicion():any{
-    //this.geolocation.watchPosition().subscribe().then
-    this.geolocation.getCurrentPosition().then( response => {
+    this.geolocation.getCurrentPosition().then(response => {
       this.loadMap(response);
     })
       .catch(error => {
@@ -193,13 +94,7 @@ export class HomePage {
     };
 
     map.one(GoogleMapsEvent.MAP_READY).then(()=> {
-
       console.log('MAP RUDY');
-
-      //REFRESH SELF POSITION TRY
-      this.map.setMyLocationEnabled(true);
-
-
 
       //camera to pos
       map.moveCamera(position);
@@ -219,7 +114,6 @@ export class HomePage {
     });
 
 }
-
 
 
 

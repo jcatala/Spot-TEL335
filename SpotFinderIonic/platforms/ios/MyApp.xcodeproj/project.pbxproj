@@ -77,19 +77,17 @@
 		0812663A59E64EFFB9835629 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EBD9A272BF46BF8F9FC03C /* CDVSplashScreen.m */; };
 		C898FCCFAFF84FB2B53FBF7F /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C7DF779AD41EB8C15D609 /* CDVViewController+SplashScreen.m */; };
 		82E47714F9DE406FA2E107FD /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 815CE82ADA2547EE9E39B38B /* IonicKeyboard.m */; };
-		85137D6B354F4BC39C418D69 /* AppDelegate+FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B17C7D185403683A37211 /* AppDelegate+FirebasePlugin.m */; };
-		4C7B82A5990041E4A9ED1CAF /* FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B0832675A6E24F1495A35117 /* FirebasePlugin.m */; };
-		CB1242B662554AE9ADDC43E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BB3D1B82D9949E38A898562 /* GoogleService-Info.plist */; };
-		DBD3007F019D4F2BBA4CE541 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B1BD5A0A5461EB97A8337 /* FirebaseAnalytics.framework */; };
-		905FE4151B4342349880D6E2 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C99A384D9E43A8B7C221C3 /* FirebaseCore.framework */; };
-		B041527BB6FF4CB786EF3109 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996B4AA5E074DCB8AB11C06 /* FirebaseInstanceID.framework */; };
-		3A1099E8B4624817914F4A40 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C13BBEE3AF4A5F91FAC320 /* GoogleToolboxForMac.framework */; };
-		3D2E8A9CE73F4A998800D159 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A2AFB4EDC1487E9948C736 /* Protobuf.framework */; };
-		F1706B9E4877424CB32840FA /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4C8B47C4814F49A2EFDC84 /* FirebaseMessaging.framework */; };
-		D3AE8A292C11406180B5DCD8 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018BC3A9070B4B5D9EEA7F40 /* FirebaseCrash.framework */; };
-		074020AA858A4B4B94F190D0 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8FF9C6CA54460CB2707F1B /* FirebaseRemoteConfig.framework */; };
-		B2F3AA56991947808CDD8E1C /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884AB8CF12E4BBAB51B409F /* SQLitePlugin.m */; };
-		37A1AE506D714F019D23FF89 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 46EED1053CB645B49FCCCD51 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=1024 -DSQLITE_DEFAULT_CACHE_SIZE=2000"; }; };
+		9DDF17E88ABD4AD7B9449508 /* AppDelegate+FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A75271ACE4FAEA212F14E /* AppDelegate+FirebasePlugin.m */; };
+		A12B9D736F9A40FB8F036A5F /* FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EAD9579CCD4B6A957A4FCE /* FirebasePlugin.m */; };
+		8702A71A701B4E82A14C775C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51980E218870438E97C53834 /* GoogleService-Info.plist */; };
+		BAB2A279C19B49CF8437FF6A /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F656C8CDFD404BA3F31559 /* FirebaseAnalytics.framework */; };
+		88970977041E4FDF913B3521 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA762D4B58CC4F6FB56E5D65 /* FirebaseCore.framework */; };
+		7AF783E02F584FE7935F78E8 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E824E6BE9B43A39E2B1BD1 /* FirebaseInstanceID.framework */; };
+		4E24B4C27CA3460BACBF0FAF /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44623DBFAA4C41DA8ED5A099 /* GoogleToolboxForMac.framework */; };
+		94FC00093A2746749356912A /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBE120934584852B2B6549E /* Protobuf.framework */; };
+		4A2CA522E8404BCFA6FD914C /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9E01D0AD47486080384E05 /* FirebaseMessaging.framework */; };
+		6DF7CD55CE60457F8EADE9B4 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDADE27846CB4CF788A95E2F /* FirebaseCrash.framework */; };
+		E4B7E3118C864A93858A4531 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C69AB2785C4020B5BAA1F3 /* FirebaseRemoteConfig.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,24 +236,20 @@
 		116FF32A66A14B61898F703A /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		815CE82ADA2547EE9E39B38B /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		6F87C8B610E84B27B3B4CC0B /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D83B17C7D185403683A37211 /* AppDelegate+FirebasePlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+FirebasePlugin.m"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B0832675A6E24F1495A35117 /* FirebasePlugin.m */ = {isa = PBXFileReference; name = "FirebasePlugin.m"; path = "cordova-plugin-firebase/FirebasePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		2DC29FB4E5C34CFDAFD0F786 /* AppDelegate+FirebasePlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+FirebasePlugin.h"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		916464980522477C9B2DCF9C /* FirebasePlugin.h */ = {isa = PBXFileReference; name = "FirebasePlugin.h"; path = "cordova-plugin-firebase/FirebasePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3664E9AE7C4D44E686658484 /* Firebase.h */ = {isa = PBXFileReference; name = "Firebase.h"; path = "cordova-plugin-firebase/Firebase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3BB3D1B82D9949E38A898562 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		201B1BD5A0A5461EB97A8337 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; name = "FirebaseAnalytics.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseAnalytics.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		62C99A384D9E43A8B7C221C3 /* FirebaseCore.framework */ = {isa = PBXFileReference; name = "FirebaseCore.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		3996B4AA5E074DCB8AB11C06 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; name = "FirebaseInstanceID.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseInstanceID.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		E3C13BBEE3AF4A5F91FAC320 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; name = "GoogleToolboxForMac.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/GoogleToolboxForMac.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		65A2AFB4EDC1487E9948C736 /* Protobuf.framework */ = {isa = PBXFileReference; name = "Protobuf.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/Protobuf.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		1C4C8B47C4814F49A2EFDC84 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; name = "FirebaseMessaging.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseMessaging.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		018BC3A9070B4B5D9EEA7F40 /* FirebaseCrash.framework */ = {isa = PBXFileReference; name = "FirebaseCrash.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseCrash.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		8E8FF9C6CA54460CB2707F1B /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; name = "FirebaseRemoteConfig.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		5884AB8CF12E4BBAB51B409F /* SQLitePlugin.m */ = {isa = PBXFileReference; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		46EED1053CB645B49FCCCD51 /* sqlite3.c */ = {isa = PBXFileReference; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB8F8393541643CABC37E5C2 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		82447C8AD963424ABE990D6D /* sqlite3.h */ = {isa = PBXFileReference; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0E2A75271ACE4FAEA212F14E /* AppDelegate+FirebasePlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+FirebasePlugin.m"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D1EAD9579CCD4B6A957A4FCE /* FirebasePlugin.m */ = {isa = PBXFileReference; name = "FirebasePlugin.m"; path = "cordova-plugin-firebase/FirebasePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5E2F01A3719E410BB24E9830 /* AppDelegate+FirebasePlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+FirebasePlugin.h"; path = "cordova-plugin-firebase/AppDelegate+FirebasePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CE9773D483AD458D83378FB9 /* FirebasePlugin.h */ = {isa = PBXFileReference; name = "FirebasePlugin.h"; path = "cordova-plugin-firebase/FirebasePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9C571D9C6FCA451E86313BEF /* Firebase.h */ = {isa = PBXFileReference; name = "Firebase.h"; path = "cordova-plugin-firebase/Firebase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		51980E218870438E97C53834 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		14F656C8CDFD404BA3F31559 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; name = "FirebaseAnalytics.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseAnalytics.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		FA762D4B58CC4F6FB56E5D65 /* FirebaseCore.framework */ = {isa = PBXFileReference; name = "FirebaseCore.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B9E824E6BE9B43A39E2B1BD1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; name = "FirebaseInstanceID.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseInstanceID.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		44623DBFAA4C41DA8ED5A099 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; name = "GoogleToolboxForMac.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/GoogleToolboxForMac.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CBBE120934584852B2B6549E /* Protobuf.framework */ = {isa = PBXFileReference; name = "Protobuf.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/Protobuf.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0C9E01D0AD47486080384E05 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; name = "FirebaseMessaging.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseMessaging.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CDADE27846CB4CF788A95E2F /* FirebaseCrash.framework */ = {isa = PBXFileReference; name = "FirebaseCrash.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseCrash.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		33C69AB2785C4020B5BAA1F3 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; name = "FirebaseRemoteConfig.framework"; path = "MyApp/Plugins/cordova-plugin-firebase/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,14 +275,14 @@
 				F98D01C0DCCA4883990DF663 /* GoogleMaps.framework in Frameworks */,
 				6466E2F101514F68A7490A05 /* GoogleMapsCore.framework in Frameworks */,
 				57DE8B5C72C240EAA3C63DAF /* WebKit.framework in Frameworks */,
-				DBD3007F019D4F2BBA4CE541 /* FirebaseAnalytics.framework in Frameworks */,
-				905FE4151B4342349880D6E2 /* FirebaseCore.framework in Frameworks */,
-				B041527BB6FF4CB786EF3109 /* FirebaseInstanceID.framework in Frameworks */,
-				3A1099E8B4624817914F4A40 /* GoogleToolboxForMac.framework in Frameworks */,
-				3D2E8A9CE73F4A998800D159 /* Protobuf.framework in Frameworks */,
-				F1706B9E4877424CB32840FA /* FirebaseMessaging.framework in Frameworks */,
-				D3AE8A292C11406180B5DCD8 /* FirebaseCrash.framework in Frameworks */,
-				074020AA858A4B4B94F190D0 /* FirebaseRemoteConfig.framework in Frameworks */,
+				BAB2A279C19B49CF8437FF6A /* FirebaseAnalytics.framework in Frameworks */,
+				88970977041E4FDF913B3521 /* FirebaseCore.framework in Frameworks */,
+				7AF783E02F584FE7935F78E8 /* FirebaseInstanceID.framework in Frameworks */,
+				4E24B4C27CA3460BACBF0FAF /* GoogleToolboxForMac.framework in Frameworks */,
+				94FC00093A2746749356912A /* Protobuf.framework in Frameworks */,
+				4A2CA522E8404BCFA6FD914C /* FirebaseMessaging.framework in Frameworks */,
+				6DF7CD55CE60457F8EADE9B4 /* FirebaseCrash.framework in Frameworks */,
+				E4B7E3118C864A93858A4531 /* FirebaseRemoteConfig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +346,7 @@
 				8D1107310486CEB800E47090 /* MyApp-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				7E14E2BC75E542AFAB2A682F /* GoogleMaps.bundle */,
-				3BB3D1B82D9949E38A898562 /* GoogleService-Info.plist */,
+				51980E218870438E97C53834 /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = "MyApp/Resources";
@@ -378,14 +372,14 @@
 				370542470A4E4252B2F94FE7 /* GoogleMaps.framework */,
 				8B499251EB14459D83BB0E93 /* GoogleMapsCore.framework */,
 				12A973239F5946DE883649DF /* WebKit.framework */,
-				201B1BD5A0A5461EB97A8337 /* FirebaseAnalytics.framework */,
-				62C99A384D9E43A8B7C221C3 /* FirebaseCore.framework */,
-				3996B4AA5E074DCB8AB11C06 /* FirebaseInstanceID.framework */,
-				E3C13BBEE3AF4A5F91FAC320 /* GoogleToolboxForMac.framework */,
-				65A2AFB4EDC1487E9948C736 /* Protobuf.framework */,
-				1C4C8B47C4814F49A2EFDC84 /* FirebaseMessaging.framework */,
-				018BC3A9070B4B5D9EEA7F40 /* FirebaseCrash.framework */,
-				8E8FF9C6CA54460CB2707F1B /* FirebaseRemoteConfig.framework */,
+				14F656C8CDFD404BA3F31559 /* FirebaseAnalytics.framework */,
+				FA762D4B58CC4F6FB56E5D65 /* FirebaseCore.framework */,
+				B9E824E6BE9B43A39E2B1BD1 /* FirebaseInstanceID.framework */,
+				44623DBFAA4C41DA8ED5A099 /* GoogleToolboxForMac.framework */,
+				CBBE120934584852B2B6549E /* Protobuf.framework */,
+				0C9E01D0AD47486080384E05 /* FirebaseMessaging.framework */,
+				CDADE27846CB4CF788A95E2F /* FirebaseCrash.framework */,
+				33C69AB2785C4020B5BAA1F3 /* FirebaseRemoteConfig.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -501,15 +495,11 @@
 				116FF32A66A14B61898F703A /* CDVViewController+SplashScreen.h */,
 				815CE82ADA2547EE9E39B38B /* IonicKeyboard.m */,
 				6F87C8B610E84B27B3B4CC0B /* IonicKeyboard.h */,
-				D83B17C7D185403683A37211 /* AppDelegate+FirebasePlugin.m */,
-				B0832675A6E24F1495A35117 /* FirebasePlugin.m */,
-				2DC29FB4E5C34CFDAFD0F786 /* AppDelegate+FirebasePlugin.h */,
-				916464980522477C9B2DCF9C /* FirebasePlugin.h */,
-				3664E9AE7C4D44E686658484 /* Firebase.h */,
-				5884AB8CF12E4BBAB51B409F /* SQLitePlugin.m */,
-				46EED1053CB645B49FCCCD51 /* sqlite3.c */,
-				DB8F8393541643CABC37E5C2 /* SQLitePlugin.h */,
-				82447C8AD963424ABE990D6D /* sqlite3.h */,
+				0E2A75271ACE4FAEA212F14E /* AppDelegate+FirebasePlugin.m */,
+				D1EAD9579CCD4B6A957A4FCE /* FirebasePlugin.m */,
+				5E2F01A3719E410BB24E9830 /* AppDelegate+FirebasePlugin.h */,
+				CE9773D483AD458D83378FB9 /* FirebasePlugin.h */,
+				9C571D9C6FCA451E86313BEF /* Firebase.h */,
 			);
 			name = Plugins;
 			path = "MyApp/Plugins";
@@ -592,7 +582,7 @@
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				C518A0EE5CCA4A85A7F6EF33 /* GoogleMaps.bundle in Resources */,
-				CB1242B662554AE9ADDC43E4 /* GoogleService-Info.plist in Resources */,
+				8702A71A701B4E82A14C775C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,10 +657,8 @@
 				0812663A59E64EFFB9835629 /* CDVSplashScreen.m in Sources */,
 				C898FCCFAFF84FB2B53FBF7F /* CDVViewController+SplashScreen.m in Sources */,
 				82E47714F9DE406FA2E107FD /* IonicKeyboard.m in Sources */,
-				85137D6B354F4BC39C418D69 /* AppDelegate+FirebasePlugin.m in Sources */,
-				4C7B82A5990041E4A9ED1CAF /* FirebasePlugin.m in Sources */,
-				B2F3AA56991947808CDD8E1C /* SQLitePlugin.m in Sources */,
-				37A1AE506D714F019D23FF89 /* sqlite3.c in Resources */,
+				9DDF17E88ABD4AD7B9449508 /* AppDelegate+FirebasePlugin.m in Sources */,
+				A12B9D736F9A40FB8F036A5F /* FirebasePlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
