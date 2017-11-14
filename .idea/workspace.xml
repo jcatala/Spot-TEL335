@@ -2,12 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3a3d71-aec6-4204-9655-c9a440ecb6dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/assets/.information.json.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/config.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/package-lock.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/android.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/project.properties" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/browser.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/vendor.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/build/vendor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp/MyApp-Info.plist" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp/MyApp-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp/config.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/MyApp/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/frameworks.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/frameworks.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/ios.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/plugins/android.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/plugins/browser.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/plugins/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/plugins/fetch.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/plugins/ios.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/plugins/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locations/chile/valparaiso.json" afterPath="$PROJECT_DIR$/locations/chile/valparaiso.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,20 +77,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="information.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/assets/information.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="126">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -46,44 +87,76 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+            <state relative-caret-position="602">
+              <caret line="96" column="75" lean-forward="false" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1998">
+              <caret line="135" column="10" lean-forward="false" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
+      <file leaf-file-name="login.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+            <state relative-caret-position="332">
+              <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <element signature="e#1923#2448#0" expanded="false" />
+                <element signature="e#127#182#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,27 +175,7 @@
         <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ts.bak" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts.bak">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -137,16 +190,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/pruebamundo/pruebamundo.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/menu/menu.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/menu/menu.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/assets/information.json" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" />
         <option value="$PROJECT_DIR$/locations/chile/valparaiso.json" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.module.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" />
       </list>
     </option>
   </component>
@@ -248,6 +304,14 @@
               <item name="proyectoSpot" type="462c0819:PsiDirectoryNode" />
               <item name="SpotFinderIonic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoSpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoSpot" type="462c0819:PsiDirectoryNode" />
+              <item name="SpotFinderIonic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -305,7 +369,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53859000" />
+    <option name="totallyTimeSpent" value="56027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -322,12 +386,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18278427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,63 +415,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/assets/information.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-          <folding />
+          <folding>
+            <marker date="1510691816497" expanded="true" signature="1359:1389" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1417" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1436" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1459" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1473" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1488" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,7 +436,6 @@
           <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#1923#2448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -432,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -441,7 +468,7 @@
         <state relative-caret-position="468">
           <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,7 +478,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#0#75#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -460,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +494,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="64" lean-forward="false" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-          <folding />
+          <folding>
+            <marker date="1510691816497" expanded="true" signature="1359:1389" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1417" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1436" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1459" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1473" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1488" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +534,6 @@
           <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#1923#2448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -512,7 +543,7 @@
         <state relative-caret-position="468">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,6 +560,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1510691816497" expanded="true" signature="1359:1389" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1417" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1436" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1459" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1473" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1488" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1510691816497" expanded="true" signature="1359:1389" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1417" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1436" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1459" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1473" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1488" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -546,51 +634,6 @@
           <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#1923#2448#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#1923#2448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,7 +650,8 @@
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,26 +675,688 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="486">
+          <caret line="28" column="98" lean-forward="false" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
+          <folding>
+            <marker date="1510691816497" expanded="true" signature="1359:1389" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1417" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1436" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1459" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1473" ph="..." />
+            <marker date="1510691816497" expanded="true" signature="1359:1488" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/assets/information.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6966">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510693514551" expanded="true" signature="0:205657" ph="{&quot;name&quot;: &quot;SpotFinderIonic&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115:205655" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="29238:29508" ph="{&quot;version&quot;: &quot;1.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="29437:29508" ph="{&quot;anymatch&quot;: &quot;1.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="89744:89750" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="89767:90096" ph="{&quot;version&quot;: &quot;1.0.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="89966:90090" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="90116:90370" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="90319:90364" ph="{&quot;readable-stream&quot;: &quot;1.0.34&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="90385:90856" ph="{&quot;version&quot;: &quot;2.7.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="90578:90850" ph="{&quot;aproba&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="90870:91103" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91061:91097" ph="{&quot;globule&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91128:91327" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91346:91533" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91553:91742" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91759:92002" ph="{&quot;version&quot;: &quot;0.1.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="91956:91996" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92016:92403" ph="{&quot;version&quot;: &quot;7.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92207:92397" ph="{&quot;fs.realpath&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92422:92697" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92623:92691" ph="{&quot;glob-parent&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92718:92965" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92923:92959" ph="{&quot;is-glob&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="92982:93276" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="93179:93270" ph="{&quot;glob&quot;: &quot;7.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="93297:93490" ph="{&quot;version&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="93510:93699" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="93722:94000" ph="{&quot;version&quot;: &quot;5.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="93931:93994" ph="{&quot;ajv&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94018:94262" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94217:94256" ph="{&quot;ansi-regex&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94280:94465" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94486:94677" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94696:94940" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94897:94934" ph="{&quot;inherits&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="94957:95299" ph="{&quot;version&quot;: &quot;1.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="95216:95293" ph="{&quot;inherits&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="95313:95685" ph="{&quot;version&quot;: &quot;6.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="95566:95679" ph="{&quot;boom&quot;: &quot;4.3.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="95704:96033" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="95905:96027" ph="{&quot;hash.js&quot;: &quot;1.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="96047:96286" ph="{&quot;version&quot;: &quot;4.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="96311:96572" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="96593:96930" ph="{&quot;version&quot;: &quot;1.6.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="96798:96924" ph="{&quot;depd&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="96954:97151" ph="{&quot;version&quot;: &quot;0.4.9&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="97175:97486" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="97386:97480" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="97512:97713" ph="{&quot;version&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="97734:97925" ph="{&quot;version&quot;: &quot;1.7.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="97942:98125" ph="{&quot;version&quot;: &quot;1.1.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="98144:98312" ph="{&quot;version&quot;: &quot;3.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="98332:98521" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="98544:98797" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="98753:98791" ph="{&quot;repeating&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="98814:98997" ph="{&quot;version&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99015:99280" ph="{&quot;version&quot;: &quot;1.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99214:99274" ph="{&quot;once&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99298:99464" ph="{&quot;version&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99496:99775" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99704:99769" ph="{&quot;falafel&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="99794:99981" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="100000:100187" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="100210:100448" ph="{&quot;version&quot;: &quot;3.8.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="100479:100671" ph="{&quot;version&quot;: &quot;2.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="100689:100855" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="100874:101061" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="101073:101246" ph="{&quot;version&quot;: &quot;0.2.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="101267:101458" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="101482:101746" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="101693:101740" ph="{&quot;binary-extensions&quot;: &quot;1.10.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="101765:102014" ph="{&quot;version&quot;: &quot;1.1.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102041:102308" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102258:102302" ph="{&quot;builtin-modules&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102328:102517" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102543:102805" ph="{&quot;version&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102758:102799" ph="{&quot;is-primitive&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="102828:103023" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103043:103232" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103251:103500" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103452:103494" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103533:103810" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103762:103804" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="103827:104069" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104024:104063" ph="{&quot;is-extglob&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104088:104275" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104294:104537" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104495:104531" ph="{&quot;kind-of&quot;: &quot;3.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104556:104743" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104769:104970" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="104992:105185" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="105204:105391" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="105414:105609" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="105626:105809" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="105826:105990" ph="{&quot;version&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106008:106193" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106208:106387" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106405:106902" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106604:106640" ph="{&quot;isarray&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106664:106896" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="106685:106888" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="106920:107105" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="107124:107373" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="107392:107579" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="107593:107794" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="107815:108006" ph="{&quot;version&quot;: &quot;0.5.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="108027:108218" ph="{&quot;version&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="108248:108457" ph="{&quot;version&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="108486:108693" ph="{&quot;version&quot;: &quot;5.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="108708:108887" ph="{&quot;version&quot;: &quot;0.5.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="108905:109151" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109104:109145" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109167:109499" ph="{&quot;version&quot;: &quot;1.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109362:109493" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109520:110141" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109706:109822" ph="{&quot;base62&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="109846:110135" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="109870:110127" ph="{&quot;version&quot;: &quot;0.1.31&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110072:110117" ph="{&quot;amdefine&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110158:110399" ph="{&quot;version&quot;: &quot;3.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110355:110393" ph="{&quot;is-buffer&quot;: &quot;1.1.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110419:110608" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110622:110857" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110813:110851" ph="{&quot;invert-kv&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="110878:111190" ph="{&quot;version&quot;: &quot;0.1.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="111083:111184" ph="{&quot;level-peek&quot;: &quot;1.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="111216:111961" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="111431:111705" ph="{&quot;concat-stream&quot;: &quot;1.6.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="111729:111955" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="111748:111947" ph="{&quot;version&quot;: &quot;2.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="111986:112185" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="112206:112458" ph="{&quot;version&quot;: &quot;4.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="112411:112452" ph="{&quot;string-range&quot;: &quot;1.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="112476:113440" ph="{&quot;version&quot;: &quot;2.2.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="112675:112876" ph="{&quot;abstract-leveldown&quot;: &quot;0.12.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="112900:113434" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="112925:113136" ph="{&quot;version&quot;: &quot;0.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113155:113426" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113368:113416" ph="{&quot;object-keys&quot;: &quot;0.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113460:113713" ph="{&quot;version&quot;: &quot;1.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113663:113707" ph="{&quot;level-fix-range&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113737:115123" ph="{&quot;version&quot;: &quot;5.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="113948:114083" ph="{&quot;level-fix-range&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="114107:115117" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="114136:114422" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="114369:114412" ph="{&quot;clone&quot;: &quot;0.1.19&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="114447:114785" ph="{&quot;version&quot;: &quot;0.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="114672:114775" ph="{&quot;foreach&quot;: &quot;2.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="114804:115109" ph="{&quot;version&quot;: &quot;2.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115017:115099" ph="{&quot;is-object&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115140:116026" ph="{&quot;version&quot;: &quot;0.18.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115339:115549" ph="{&quot;bl&quot;: &quot;0.8.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115573:116020" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="115593:115794" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="115813:116012" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="116039:116372" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="116209:116366" ph="{&quot;es3ify&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="116395:116590" ph="{&quot;version&quot;: &quot;2.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="116614:116993" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="116825:116987" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117016:117211" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117233:117539" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117440:117533" ph="{&quot;big.js&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117560:117784" ph="{&quot;version&quot;: &quot;1.4.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117746:117778" ph="{&quot;lie&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="117825:118137" ph="{&quot;version&quot;: &quot;1.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118051:118131" ph="{&quot;@types/localforage&quot;: &quot;0.0.30&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118158:118706" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118363:118432" ph="{&quot;p-locate&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118456:118700" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="118481:118692" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118722:118905" ph="{&quot;version&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="118928:119123" ph="{&quot;version&quot;: &quot;4.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="119149:119350" ph="{&quot;version&quot;: &quot;4.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="119376:119577" ph="{&quot;version&quot;: &quot;4.6.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="119594:119777" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="119801:120098" ph="{&quot;version&quot;: &quot;1.6.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120012:120092" ph="{&quot;currently-unhandled&quot;: &quot;0.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120117:120452" ph="{&quot;version&quot;: &quot;4.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120380:120446" ph="{&quot;pseudomap&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120466:120643" ph="{&quot;version&quot;: &quot;2.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120666:120923" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="120945:121192" ph="{&quot;version&quot;: &quot;0.19.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121154:121186" ph="{&quot;vlq&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121209:121392" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121408:122043" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121603:121670" ph="{&quot;hash-base&quot;: &quot;3.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121694:122037" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="121717:122029" ph="{&quot;version&quot;: &quot;3.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="121938:122019" ph="{&quot;inherits&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122064:122255" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122268:122500" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122457:122494" ph="{&quot;mimic-fn&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122519:124038" ph="{&quot;version&quot;: &quot;0.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122720:122790" ph="{&quot;errno&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="122814:124032" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="122835:123038" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="123067:123645" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="123362:123635" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="123673:124024" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="123966:124014" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="124052:124585" ph="{&quot;version&quot;: &quot;3.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="124243:124579" ph="{&quot;camelcase-keys&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="124612:124815" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="124832:125015" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="125035:125659" ph="{&quot;version&quot;: &quot;2.3.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="125240:125653" ph="{&quot;arr-diff&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="125681:126019" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="125950:126013" ph="{&quot;bn.js&quot;: &quot;4.11.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126033:126210" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126227:126412" ph="{&quot;version&quot;: &quot;1.30.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126432:126680" ph="{&quot;version&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126637:126674" ph="{&quot;mime-db&quot;: &quot;1.30.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126698:126883" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="126912:127119" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="127154:127373" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="127392:127705" ph="{&quot;version&quot;: &quot;3.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="127655:127699" ph="{&quot;brace-expansion&quot;: &quot;1.1.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="127723:127889" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="127905:128360" ph="{&quot;version&quot;: &quot;0.5.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128081:128118" ph="{&quot;minimist&quot;: &quot;0.0.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128142:128354" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="128164:128346" ph="{&quot;version&quot;: &quot;0.0.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128372:128545" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128558:128733" ph="{&quot;version&quot;: &quot;2.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128753:128942" ph="{&quot;version&quot;: &quot;0.6.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="128960:129781" ph="{&quot;version&quot;: &quot;3.6.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="129159:129522" ph="{&quot;fstream&quot;: &quot;1.0.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="129546:129775" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="129566:129767" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="129808:132131" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="130025:130807" ph="{&quot;assert&quot;: &quot;1.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="130831:132125" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="130852:131055" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="131084:132117" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="131379:131652" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="131680:132107" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="131712:132095" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="132025:132081" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="132150:133270" ph="{&quot;version&quot;: &quot;4.5.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="132351:132896" ph="{&quot;async-foreach&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="132920:133264" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="132945:133256" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="133170:133246" ph="{&quot;lru-cache&quot;: &quot;4.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="133284:133516" ph="{&quot;version&quot;: &quot;3.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="133475:133510" ph="{&quot;abbrev&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="133548:134001" ph="{&quot;version&quot;: &quot;2.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="133837:133995" ph="{&quot;hosted-git-info&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134025:134296" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134236:134290" ph="{&quot;remove-trailing-separator&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134321:134520" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134542:134792" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134749:134786" ph="{&quot;path-key&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="134808:135219" ph="{&quot;version&quot;: &quot;4.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="135065:135213" ph="{&quot;are-we-there-yet&quot;: &quot;1.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="135241:135434" ph="{&quot;version&quot;: &quot;1.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="135457:135652" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="135672:135861" ph="{&quot;version&quot;: &quot;0.8.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="135884:136079" ph="{&quot;version&quot;: &quot;4.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136100:136274" ph="{&quot;version&quot;: &quot;1.0.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136295:136576" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136500:136570" ph="{&quot;for-own&quot;: &quot;0.1.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136591:136770" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136791:137039" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="136996:137033" ph="{&quot;ee-first&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137053:137285" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137244:137279" ph="{&quot;wrappy&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137302:137485" ph="{&quot;version&quot;: &quot;0.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137508:137703" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137723:137912" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="137931:138171" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138132:138165" ph="{&quot;lcid&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138188:138465" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138385:138459" ph="{&quot;macos-release&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138484:138671" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138686:138954" ph="{&quot;version&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138879:138948" ph="{&quot;os-homedir&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="138973:139160" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="139177:139360" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="139378:139619" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="139577:139613" ph="{&quot;p-limit&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="139633:139810" ph="{&quot;version&quot;: &quot;0.2.9&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="139830:140205" ph="{&quot;version&quot;: &quot;5.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140033:140199" ph="{&quot;asn1.js&quot;: &quot;4.9.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140225:140562" ph="{&quot;version&quot;: &quot;3.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140428:140556" ph="{&quot;glob-base&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140582:140828" ph="{&quot;version&quot;: &quot;2.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140785:140822" ph="{&quot;error-ex&quot;: &quot;1.3.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="140846:141031" ph="{&quot;version&quot;: &quot;1.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141056:141255" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141276:141530" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141481:141524" ph="{&quot;pinkie-promise&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141556:141757" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141775:141960" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="141980:142169" ph="{&quot;version&quot;: &quot;1.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="142193:142427" ph="{&quot;version&quot;: &quot;1.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="142385:142421" ph="{&quot;isarray&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="142446:142754" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="142647:142748" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="142770:143196" ph="{&quot;version&quot;: &quot;3.0.14&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="143029:143190" ph="{&quot;create-hash&quot;: &quot;1.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="143221:143420" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="143434:143611" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="143627:143808" ph="{&quot;version&quot;: &quot;2.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="143832:144084" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144043:144078" ph="{&quot;pinkie&quot;: &quot;2.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144101:145009" ph="{&quot;version&quot;: &quot;5.2.17&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144300:144430" ph="{&quot;chalk&quot;: &quot;1.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144454:145003" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="144476:144681" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144709:144995" ph="{&quot;version&quot;: &quot;3.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="144940:144985" ph="{&quot;has-flag&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="145039:145248" ph="{&quot;version&quot;: &quot;3.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="145266:145451" ph="{&quot;version&quot;: &quot;0.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="145468:145694" ph="{&quot;version&quot;: &quot;0.1.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="145711:145898" ph="{&quot;version&quot;: &quot;0.11.10&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="145919:146112" ph="{&quot;version&quot;: &quot;0.11.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="146142:146351" ph="{&quot;version&quot;: &quot;1.0.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="146371:146648" ph="{&quot;version&quot;: &quot;1.1.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="146574:146642" ph="{&quot;forwarded&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="146674:146877" ph="{&quot;version&quot;: &quot;0.15.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="146890:147065" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="147084:147271" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="147295:147677" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="147506:147671" ph="{&quot;bn.js&quot;: &quot;4.11.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="147695:147880" ph="{&quot;version&quot;: &quot;1.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="147892:148065" ph="{&quot;version&quot;: &quot;6.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="148086:148277" ph="{&quot;version&quot;: &quot;0.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="148302:148501" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="148521:149852" ph="{&quot;version&quot;: &quot;1.1.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="148786:148852" ph="{&quot;is-number&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="148876:149846" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="148899:149544" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149120:149164" ph="{&quot;kind-of&quot;: &quot;3.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149192:149534" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="149217:149522" ph="{&quot;version&quot;: &quot;3.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149454:149508" ph="{&quot;is-buffer&quot;: &quot;1.1.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149565:149838" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149782:149828" ph="{&quot;is-buffer&quot;: &quot;1.1.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="149873:150186" ph="{&quot;version&quot;: &quot;2.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150140:150180" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150206:150549" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150471:150543" ph="{&quot;randombytes&quot;: &quot;2.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150571:150764" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150782:151058" ph="{&quot;version&quot;: &quot;1.1.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="150981:151052" ph="{&quot;bytes&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151076:151397" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151275:151391" ph="{&quot;load-json-file&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151418:151694" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151623:151688" ph="{&quot;find-up&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151719:152056" ph="{&quot;version&quot;: &quot;1.0.34&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="151915:152050" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="152074:153667" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="152273:152419" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="152443:153661" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="152464:152667" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="152696:153274" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="152991:153264" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="153302:153653" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="153595:153643" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="153683:154306" ph="{&quot;version&quot;: &quot;0.10.43&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="153863:154014" ph="{&quot;ast-types&quot;: &quot;0.8.15&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="154038:154300" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="154062:154292" ph="{&quot;version&quot;: &quot;15001.1001.0-dev-harmony-fb&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="154322:154598" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="154517:154592" ph="{&quot;indent-string&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="154624:154808" ph="{&quot;version&quot;: &quot;0.1.10&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="154829:155147" ph="{&quot;version&quot;: &quot;0.4.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="155096:155141" ph="{&quot;is-equal-shallow&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="155182:155401" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="155425:155622" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="155645:155840" ph="{&quot;version&quot;: &quot;1.6.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="155859:156104" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="156060:156098" ph="{&quot;is-finite&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="156121:157386" ph="{&quot;version&quot;: &quot;2.83.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="156382:157077" ph="{&quot;aws-sign2&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="157101:157380" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="157117:157372" ph="{&quot;version&quot;: &quot;6.5.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="157413:157616" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="157647:157858" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="157875:158179" ph="{&quot;version&quot;: &quot;1.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158134:158173" ph="{&quot;path-parse&quot;: &quot;1.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158200:158450" ph="{&quot;version&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158405:158444" ph="{&quot;align-text&quot;: &quot;0.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158466:158762" ph="{&quot;version&quot;: &quot;2.6.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158723:158756" ph="{&quot;glob&quot;: &quot;7.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158781:159055" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="158982:159049" ph="{&quot;hash-base&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="159071:159316" ph="{&quot;version&quot;: &quot;0.49.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="159348:160003" ph="{&quot;version&quot;: &quot;8.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="159575:159745" ph="{&quot;acorn&quot;: &quot;4.0.13&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="159769:159997" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="159788:159989" ph="{&quot;version&quot;: &quot;4.0.13&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="160031:160365" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="160312:160359" ph="{&quot;rollup-pluginutils&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="160402:160790" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="160639:160784" ph="{&quot;browserify-fs&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="160826:162437" ph="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="161061:161267" ph="{&quot;acorn&quot;: &quot;4.0.13&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="161291:162431" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="161310:161511" ph="{&quot;version&quot;: &quot;4.0.13&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="161538:161753" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="161779:162058" ph="{&quot;version&quot;: &quot;0.16.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162008:162048" ph="{&quot;vlq&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162090:162423" ph="{&quot;version&quot;: &quot;1.5.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162329:162413" ph="{&quot;estree-walker&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162473:162853" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162708:162847" ph="{&quot;browser-resolve&quot;: &quot;1.11.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="162881:163180" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163100:163174" ph="{&quot;estree-walker&quot;: &quot;0.3.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163194:163480" ph="{&quot;version&quot;: &quot;5.4.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163428:163474" ph="{&quot;symbol-observable&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163501:163754" ph="{&quot;version&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163779:163978" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="163998:164329" ph="{&quot;version&quot;: &quot;2.2.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="164201:164323" ph="{&quot;glob&quot;: &quot;7.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="164342:164579" ph="{&quot;version&quot;: &quot;1.2.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="164603:165223" ph="{&quot;version&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="164814:164883" ph="{&quot;js-base64&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="164907:165217" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="164931:165209" ph="{&quot;version&quot;: &quot;0.4.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="165154:165199" ph="{&quot;amdefine&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="165239:165482" ph="{&quot;version&quot;: &quot;5.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="165496:166069" ph="{&quot;version&quot;: &quot;0.15.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="165689:166063" ph="{&quot;debug&quot;: &quot;2.6.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="166091:166431" ph="{&quot;version&quot;: &quot;1.12.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="166300:166425" ph="{&quot;encodeurl&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="166469:166675" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="166697:166890" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="166918:167123" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="167145:167338" ph="{&quot;version&quot;: &quot;1.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="167362:167559" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="167575:167907" ph="{&quot;version&quot;: &quot;2.4.9&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="167832:167901" ph="{&quot;inherits&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="167932:168193" ph="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168145:168187" ph="{&quot;shebang-regex&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168216:168411" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168432:168623" ph="{&quot;version&quot;: &quot;3.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168637:168929" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168890:168923" ph="{&quot;hoek&quot;: &quot;4.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="168954:169215" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="169235:169405" ph="{&quot;version&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="169433:169742" ph="{&quot;version&quot;: &quot;0.4.18&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="169697:169736" ph="{&quot;source-map&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="169764:170022" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="169971:170016" ph="{&quot;spdx-license-ids&quot;: &quot;1.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="170053:170264" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="170290:170491" ph="{&quot;version&quot;: &quot;1.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="170506:170948" ph="{&quot;version&quot;: &quot;1.13.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="170701:170942" ph="{&quot;asn1&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="170966:171151" ph="{&quot;version&quot;: &quot;1.3.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="171174:172675" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="171383:171427" ph="{&quot;readable-stream&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="171451:172669" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="171472:171675" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="171704:172282" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="171999:172272" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="172310:172661" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="172603:172651" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="172702:174240" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="172919:172992" ph="{&quot;inherits&quot;: &quot;2.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="173016:174234" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="173037:173240" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="173269:173847" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="173564:173837" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="173875:174226" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="174168:174216" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="174261:175951" ph="{&quot;version&quot;: &quot;2.7.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="174528:174703" ph="{&quot;builtin-status-codes&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="174727:175945" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="174748:174951" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="174980:175558" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="175275:175548" ph="{&quot;core-util-is&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="175586:175937" ph="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="175879:175927" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="175973:176166" ph="{&quot;version&quot;: &quot;1.2.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="176191:176390" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="176412:176742" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="176619:176736" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="176766:176948" ph="{&quot;version&quot;: &quot;0.10.31&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="176970:177163" ph="{&quot;version&quot;: &quot;0.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177183:177431" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177386:177425" ph="{&quot;ansi-regex&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177450:177693" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177651:177687" ph="{&quot;is-utf8&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177712:177899" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="177921:178172" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178128:178166" ph="{&quot;get-stdin&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178196:178450" ph="{&quot;version&quot;: &quot;4.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178407:178444" ph="{&quot;has-flag&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178470:178752" ph="{&quot;version&quot;: &quot;3.6.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178654:178746" ph="{&quot;path-to-regexp&quot;: &quot;1.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178779:178963" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="178980:179163" ph="{&quot;version&quot;: &quot;0.2.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179176:179470" ph="{&quot;version&quot;: &quot;2.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179365:179464" ph="{&quot;block-stream&quot;: &quot;0.0.9&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179487:179651" ph="{&quot;version&quot;: &quot;2.3.8&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179669:179926" ph="{&quot;version&quot;: &quot;0.6.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179849:179920" ph="{&quot;readable-stream&quot;: &quot;1.0.34&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="179953:180279" ph="{&quot;version&quot;: &quot;2.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="180232:180273" ph="{&quot;setimmediate&quot;: &quot;1.0.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="180296:181207" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="180493:180679" ph="{&quot;body&quot;: &quot;5.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="180703:181201" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="180722:180984" ph="{&quot;version&quot;: &quot;2.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="180935:180974" ph="{&quot;ms&quot;: &quot;0.7.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181000:181193" ph="{&quot;version&quot;: &quot;0.7.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181231:181428" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181450:181700" ph="{&quot;version&quot;: &quot;2.3.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181657:181694" ph="{&quot;punycode&quot;: &quot;1.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181723:181918" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="181935:182256" ph="{&quot;version&quot;: &quot;0.21.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="182115:182250" ph="{&quot;minimist&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="182271:182493" ph="{&quot;version&quot;: &quot;1.8.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="182509:183507" ph="{&quot;version&quot;: &quot;5.8.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="182704:183033" ph="{&quot;babel-code-frame&quot;: &quot;6.26.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="183057:183501" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="183076:183493" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="183351:183483" ph="{&quot;ansi-styles&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="183536:184110" ph="{&quot;version&quot;: &quot;4.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="183757:183848" ph="{&quot;doctrine&quot;: &quot;0.7.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="183872:184104" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="183893:184096" ph="{&quot;version&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184127:184366" ph="{&quot;version&quot;: &quot;2.12.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184326:184360" ph="{&quot;tslib&quot;: &quot;1.8.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184390:184587" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184609:184862" ph="{&quot;version&quot;: &quot;0.6.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184816:184856" ph="{&quot;safe-buffer&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="184881:185094" ph="{&quot;version&quot;: &quot;0.14.5&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="185111:185388" ph="{&quot;version&quot;: &quot;1.6.15&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="185310:185382" ph="{&quot;media-typer&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="185408:185597" ph="{&quot;version&quot;: &quot;0.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="185627:185836" ph="{&quot;version&quot;: &quot;1.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="185856:186045" ph="{&quot;version&quot;: &quot;2.3.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="186064:186730" ph="{&quot;version&quot;: &quot;3.1.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="186327:186397" ph="{&quot;commander&quot;: &quot;2.11.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="186421:186724" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="186445:186716" ph="{&quot;version&quot;: &quot;0.6.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="186760:186993" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187026:188759" ph="{&quot;version&quot;: &quot;0.4.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187255:187361" ph="{&quot;source-map&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187385:188753" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="187408:187615" ph="{&quot;version&quot;: &quot;1.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187634:187975" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187847:187965" ph="{&quot;center-align&quot;: &quot;0.1.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="187998:188354" ph="{&quot;version&quot;: &quot;2.8.29&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="188221:188344" ph="{&quot;source-map&quot;: &quot;0.5.7&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="188373:188745" ph="{&quot;version&quot;: &quot;3.10.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="188588:188735" ph="{&quot;camelcase&quot;: &quot;1.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="188775:188956" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="188978:189171" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="189187:189368" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="189406:189737" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="189626:189731" ph="{&quot;esmangle-evaluator&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="189750:190275" ph="{&quot;version&quot;: &quot;0.11.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="189941:190010" ph="{&quot;punycode&quot;: &quot;1.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="190034:190269" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="190056:190261" ph="{&quot;version&quot;: &quot;1.3.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="190289:190784" ph="{&quot;version&quot;: &quot;0.10.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="190482:190519" ph="{&quot;inherits&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="190543:190778" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="190565:190770" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="190808:191005" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="191026:191217" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="191231:191470" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="191508:191836" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="191747:191830" ph="{&quot;spdx-correct&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="191850:192027" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192043:192350" ph="{&quot;version&quot;: &quot;1.10.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192240:192344" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192363:192600" ph="{&quot;version&quot;: &quot;0.2.3&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192623:192874" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192832:192868" ph="{&quot;indexof&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="192893:193196" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="193094:193190" ph="{&quot;async&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="193213:199599" ph="{&quot;version&quot;: &quot;3.8.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="193472:194174" ph="{&quot;acorn&quot;: &quot;5.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="194198:199593" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="194217:194478" ph="{&quot;version&quot;: &quot;5.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="194502:194711" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="194734:194941" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="194962:195237" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="195179:195227" ph="{&quot;locate-path&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="195274:195509" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="195537:195925" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="195768:195915" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="195948:196340" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="196231:196330" ph="{&quot;execa&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="196363:196635" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="196584:196625" ph="{&quot;pify&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="196657:197018" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="196876:197008" ph="{&quot;load-json-file&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="197043:197355" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="197268:197345" ph="{&quot;find-up&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="197381:197775" ph="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="197670:197765" ph="{&quot;is-fullwidth-code-point&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="197799:198079" ph="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="198022:198069" ph="{&quot;ansi-regex&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="198102:198309" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="198335:198548" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="198567:199276" ph="{&quot;version&quot;: &quot;8.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="198780:199266" ph="{&quot;camelcase&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="199302:199585" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="199529:199575" ph="{&quot;camelcase&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="199624:199980" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="199899:199974" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200006:200311" ph="{&quot;version&quot;: &quot;0.7.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200221:200305" ph="{&quot;http-parser-js&quot;: &quot;0.4.9&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200341:200550" ph="{&quot;version&quot;: &quot;0.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200565:200860" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200820:200854" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="200882:201075" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201095:201407" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201360:201401" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201428:201674" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201633:201668" ph="{&quot;semver&quot;: &quot;5.4.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201695:201886" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="201904:202089" ph="{&quot;version&quot;: &quot;0.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202108:202387" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202309:202381" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202403:202584" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202596:202852" ph="{&quot;version&quot;: &quot;1.1.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202783:202846" ph="{&quot;options&quot;: &quot;0.0.6&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="202868:203134" ph="{&quot;version&quot;: &quot;0.4.17&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203065:203128" ph="{&quot;sax&quot;: &quot;1.2.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203154:203399" ph="{&quot;version&quot;: &quot;4.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203357:203393" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203414:203574" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203588:203765" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203782:203965" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="203980:204871" ph="{&quot;version&quot;: &quot;7.1.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="204173:204603" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="204627:204865" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="204650:204857" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="204893:205406" ph="{&quot;version&quot;: &quot;5.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="205100:205138" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="205162:205400" ph="{...}" />
+            <marker date="1510693514551" expanded="true" signature="205185:205392" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1510693514551" expanded="true" signature="205423:205651" ph="{&quot;version&quot;: &quot;0.8.18&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -659,43 +1365,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/assets/information.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,13 +1409,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="96" column="75" lean-forward="false" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+        <state relative-caret-position="1998">
+          <caret line="135" column="10" lean-forward="false" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#1923#2448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#127#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

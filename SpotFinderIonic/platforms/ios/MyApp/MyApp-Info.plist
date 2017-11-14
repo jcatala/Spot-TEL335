@@ -56,6 +56,8 @@
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
+        <key>accounts.google.com</key>
+        <dict/>
       </dict>
       <key>NSAllowsArbitraryLoads</key>
       <true/>
@@ -83,6 +85,16 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>io.ionic.starter</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>REVERSED_CLIENT_ID</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com</string>
         </array>
       </dict>
     </array>

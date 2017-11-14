@@ -14,12 +14,15 @@ import { GoogleMaps } from "@ionic-native/google-maps";
 import { HttpModule} from "@angular/http";
 import { Firebase} from "@ionic-native/firebase";
 import { IonicStorageModule } from "@ionic/storage";
+import {GooglePlus} from "@ionic-native/google-plus";
+import {LoginPage} from "../pages/login/login";
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -30,13 +33,15 @@ import { IonicStorageModule } from "@ionic/storage";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     Geolocation,
     GoogleMaps,
+    GooglePlus,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

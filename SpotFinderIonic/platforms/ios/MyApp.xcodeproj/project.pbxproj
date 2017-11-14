@@ -90,6 +90,18 @@
 		074020AA858A4B4B94F190D0 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8FF9C6CA54460CB2707F1B /* FirebaseRemoteConfig.framework */; };
 		B2F3AA56991947808CDD8E1C /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884AB8CF12E4BBAB51B409F /* SQLitePlugin.m */; };
 		37A1AE506D714F019D23FF89 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 46EED1053CB645B49FCCCD51 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=1024 -DSQLITE_DEFAULT_CACHE_SIZE=2000"; }; };
+		DEDF6E25941348CCAD5C9D94 /* GooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5007BAAB2AC4002B9147982 /* GooglePlus.m */; };
+		A01126E587D14788B5C1E94A /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275FB3055714096B876ACE8 /* GoogleAppUtilities.framework */; };
+		EA83F79B526E4F45AD832950 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BDA5E463954D0F951D7FBD /* GoogleAuthUtilities.framework */; };
+		6EF279967E1744B087276895 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E696ED721B14B7B8A786CD9 /* GoogleNetworkingUtilities.framework */; };
+		26884A7731744EC4B10D11B2 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5DB2842667449FB73412A0 /* GoogleSignIn.framework */; };
+		BDDD7320D8FD4DE8AF553825 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE1D9C28A0D4FB6A44CF7E2 /* GoogleSymbolUtilities.framework */; };
+		2EDAC46271154C22B25A2160 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65650A85B00B4056B22661FE /* GoogleUtilities.framework */; };
+		AF5E06FEADD748AAAD98188E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED9A9708BC846F4B428F03E /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4B818760A2A34162B0290CA3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8772E9E0DB4F1EB8385DA8 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5BF56F0B19874EB8AEE95B4F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B08CA85EC42C995024D7D /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D336333EBDDF4B56A8F6E4A4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9C29C889854A96A53F0CA1 /* libz.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B12E0071DFB64E869369D7B3 /* MyApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 9171A56C98C34A57B61B25E2 /* MyApp.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +268,19 @@
 		46EED1053CB645B49FCCCD51 /* sqlite3.c */ = {isa = PBXFileReference; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DB8F8393541643CABC37E5C2 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		82447C8AD963424ABE990D6D /* sqlite3.h */ = {isa = PBXFileReference; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A5007BAAB2AC4002B9147982 /* GooglePlus.m */ = {isa = PBXFileReference; name = "GooglePlus.m"; path = "cordova-plugin-googleplus/GooglePlus.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4E223AB5862D406C99126537 /* GooglePlus.h */ = {isa = PBXFileReference; name = "GooglePlus.h"; path = "cordova-plugin-googleplus/GooglePlus.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1275FB3055714096B876ACE8 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; name = "GoogleAppUtilities.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleAppUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		06BDA5E463954D0F951D7FBD /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; name = "GoogleAuthUtilities.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleAuthUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4E696ED721B14B7B8A786CD9 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; name = "GoogleNetworkingUtilities.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleNetworkingUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		9B5DB2842667449FB73412A0 /* GoogleSignIn.framework */ = {isa = PBXFileReference; name = "GoogleSignIn.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleSignIn.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		2BE1D9C28A0D4FB6A44CF7E2 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; name = "GoogleSymbolUtilities.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		65650A85B00B4056B22661FE /* GoogleUtilities.framework */ = {isa = PBXFileReference; name = "GoogleUtilities.framework"; path = "MyApp/Plugins/cordova-plugin-googleplus/GoogleUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		DED9A9708BC846F4B428F03E /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CB8772E9E0DB4F1EB8385DA8 /* SafariServices.framework */ = {isa = PBXFileReference; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		101B08CA85EC42C995024D7D /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1D9C29C889854A96A53F0CA1 /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		9171A56C98C34A57B61B25E2 /* MyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "MyApp.entitlements"; path = "MyApp.entitlements"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +314,16 @@
 				F1706B9E4877424CB32840FA /* FirebaseMessaging.framework in Frameworks */,
 				D3AE8A292C11406180B5DCD8 /* FirebaseCrash.framework in Frameworks */,
 				074020AA858A4B4B94F190D0 /* FirebaseRemoteConfig.framework in Frameworks */,
+				A01126E587D14788B5C1E94A /* GoogleAppUtilities.framework in Frameworks */,
+				EA83F79B526E4F45AD832950 /* GoogleAuthUtilities.framework in Frameworks */,
+				6EF279967E1744B087276895 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				26884A7731744EC4B10D11B2 /* GoogleSignIn.framework in Frameworks */,
+				BDDD7320D8FD4DE8AF553825 /* GoogleSymbolUtilities.framework in Frameworks */,
+				2EDAC46271154C22B25A2160 /* GoogleUtilities.framework in Frameworks */,
+				AF5E06FEADD748AAAD98188E /* AddressBook.framework in Frameworks */,
+				4B818760A2A34162B0290CA3 /* SafariServices.framework in Frameworks */,
+				5BF56F0B19874EB8AEE95B4F /* Security.framework in Frameworks */,
+				D336333EBDDF4B56A8F6E4A4 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +388,7 @@
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				7E14E2BC75E542AFAB2A682F /* GoogleMaps.bundle */,
 				3BB3D1B82D9949E38A898562 /* GoogleService-Info.plist */,
+				9171A56C98C34A57B61B25E2 /* MyApp.entitlements */,
 			);
 			name = Resources;
 			path = "MyApp/Resources";
@@ -386,6 +422,16 @@
 				1C4C8B47C4814F49A2EFDC84 /* FirebaseMessaging.framework */,
 				018BC3A9070B4B5D9EEA7F40 /* FirebaseCrash.framework */,
 				8E8FF9C6CA54460CB2707F1B /* FirebaseRemoteConfig.framework */,
+				1275FB3055714096B876ACE8 /* GoogleAppUtilities.framework */,
+				06BDA5E463954D0F951D7FBD /* GoogleAuthUtilities.framework */,
+				4E696ED721B14B7B8A786CD9 /* GoogleNetworkingUtilities.framework */,
+				9B5DB2842667449FB73412A0 /* GoogleSignIn.framework */,
+				2BE1D9C28A0D4FB6A44CF7E2 /* GoogleSymbolUtilities.framework */,
+				65650A85B00B4056B22661FE /* GoogleUtilities.framework */,
+				DED9A9708BC846F4B428F03E /* AddressBook.framework */,
+				CB8772E9E0DB4F1EB8385DA8 /* SafariServices.framework */,
+				101B08CA85EC42C995024D7D /* Security.framework */,
+				1D9C29C889854A96A53F0CA1 /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -510,6 +556,8 @@
 				46EED1053CB645B49FCCCD51 /* sqlite3.c */,
 				DB8F8393541643CABC37E5C2 /* SQLitePlugin.h */,
 				82447C8AD963424ABE990D6D /* sqlite3.h */,
+				A5007BAAB2AC4002B9147982 /* GooglePlus.m */,
+				4E223AB5862D406C99126537 /* GooglePlus.h */,
 			);
 			name = Plugins;
 			path = "MyApp/Plugins";
@@ -593,6 +641,7 @@
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				C518A0EE5CCA4A85A7F6EF33 /* GoogleMaps.bundle in Resources */,
 				CB1242B662554AE9ADDC43E4 /* GoogleService-Info.plist in Resources */,
+				B12E0071DFB64E869369D7B3 /* MyApp.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +720,7 @@
 				4C7B82A5990041E4A9ED1CAF /* FirebasePlugin.m in Sources */,
 				B2F3AA56991947808CDD8E1C /* SQLitePlugin.m in Sources */,
 				37A1AE506D714F019D23FF89 /* sqlite3.c in Resources */,
+				DEDF6E25941348CCAD5C9D94 /* GooglePlus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +769,14 @@
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
 				);
+				CODE_SIGN_ENTITLEMENTS = "MyApp/Resources/MyApp.entitlements";
 			};
 			name = Debug;
 		};
@@ -755,7 +812,14 @@
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
 					"\"MyApp/Plugins/cordova-plugin-firebase\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
+					"\"MyApp/Plugins/cordova-plugin-googleplus\"",
 				);
+				CODE_SIGN_ENTITLEMENTS = "MyApp/Resources/MyApp.entitlements";
 			};
 			name = Release;
 		};
@@ -782,6 +846,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				CODE_SIGN_ENTITLEMENTS = "MyApp/Resources/MyApp.entitlements";
 			};
 			name = Debug;
 		};
@@ -807,6 +872,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				CODE_SIGN_ENTITLEMENTS = "MyApp/Resources/MyApp.entitlements";
 			};
 			name = Release;
 		};

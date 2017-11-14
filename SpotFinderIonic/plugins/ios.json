@@ -37,6 +37,10 @@
     },
     "cordova-sqlite-storage": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-googleplus": {
+      "REVERSED_CLIENT_ID": "770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com",
+      "PACKAGE_NAME": "io.ionic.starter"
     }
   },
   "dependent_plugins": {

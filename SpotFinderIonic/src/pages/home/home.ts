@@ -44,7 +44,7 @@ export class HomePage {
     });
 
 
-    let localbd = this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+    let localbd = this.http.get('https://spottel335.firebaseio.com/.json')
       .map(res => res.json().items);
     localbd.subscribe(data => {
       this.maindata = data;
@@ -70,7 +70,7 @@ export class HomePage {
   }
 
   getJson(){
-    return this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json').map( res => res.json());
+    return this.http.get('https://spottel335.firebaseio.com/.json').map( res => res.json());
   }
 
   marker(what){
@@ -124,21 +124,20 @@ export class HomePage {
     */
 
 
-    console.log(   );
-    for(let i = 0; i < this.items.length; i++){
-      let sport = String(this.items[i][0]);
-      if (sport == what){
-        let pos_parcial = String(this.items[i][String(what)]);
+    for(let i = 0; i < this.items[0].length; i++){
+      let sport = String(this.items[0][i][0]);
+      if (sport == String(what)){
+        let pos_parcial = String(this.items[0][i][1]);
         let pos_parcial_split = pos_parcial.split(",");
         let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
         let marker: MarkerOptions = {
           position: pos_marker,
-          title: String(this.items[i][3])
+          title: String(this.items[0][i][2])
         };
         this.map.addMarker(marker);
       }
     }
-    
+
   }
 
   ionViewDidLoad(){
@@ -146,10 +145,9 @@ export class HomePage {
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
 
-    this.http.get('https://raw.githubusercontent.com/jcatala/Spot-TEL335/master/locations/chile/valparaiso.json')
+    this.http.get('https://spottel335.firebaseio.com/.json')
       .map(res => res.json()).subscribe(data => {
       this.items.push(data);
-      console.log("data: ", data, "items:", this.items[0]['bmx'], "maindata:");
     });
 
   }

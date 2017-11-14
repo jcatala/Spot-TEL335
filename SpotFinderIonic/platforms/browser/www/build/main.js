@@ -47,7 +47,6 @@ webpackEmptyAsyncContext.id = 150;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__ = __webpack_require__(270);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,29 +63,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var HomePage = (function () {
-    function HomePage(navCtrl, geolocation, googleMaps, http, storage, firebase) {
+    function HomePage(navCtrl, geolocation, googleMaps, http, storage) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.geolocation = geolocation;
         this.googleMaps = googleMaps;
         this.http = http;
         this.storage = storage;
-        this.firebase = firebase;
         this.items = [];
         var localData = this.http.get('assets/information.json').map(function (res) { return res.json().items; });
         localData.subscribe(function (data) {
             _this.information = data;
         });
-        this.maindata = null;
-        this.maindata = this.http.get('http://spottel335.firebaseio.com/.json').map(function (res) { return res.json(); }).subscribe(function (data) {
-            _this.maindata = data.data.children;
-            console.log(_this.maindata);
+        var localbd = this.http.get('https://spottel335.firebaseio.com/.json')
+            .map(function (res) { return res.json().items; });
+        localbd.subscribe(function (data) {
+            _this.maindata = data;
         });
-        this.firebase.getToken().then(function (token) { return console.log('token is ${token}'); })
-            .catch(function (error) { return console.error('error getting token', error); });
-        this.firebase.onTokenRefresh().subscribe(function (token) { return console.log('Got new token ${token}'); });
     }
     //FIREBASE API
     //
@@ -99,14 +93,14 @@ var HomePage = (function () {
     HomePage.prototype.getJson = function () {
         return this.http.get('https://spottel335.firebaseio.com/.json').map(function (res) { return res.json(); });
     };
-    HomePage.prototype.marker = function () {
+    HomePage.prototype.marker = function (what) {
+        this.map.clear();
         var pos2 = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](-33, -75);
         var mk = {
             position: pos2,
             title: "probando12"
         };
         this.map.addMarker(mk);
-        console.log(this.storage.get('maindata'));
         /*   let latitude = total[0];
            let longitude = total[1];
            let pos3: LatLng = new LatLng(latitude, longitude);
@@ -115,10 +109,54 @@ var HomePage = (function () {
              title: 'probando jotason'
            };
            this.map.addMarker(mk2);
+       
+           let s1 = String(this.items[0]['bmx']);
+           let as = s1.split('#');
+           console.log(as,as[0]);
+           let vina: LatLng = new LatLng(parseFloat(as[0]),parseFloat(as[1]));
+           let mk3: MarkerOptions = {
+             position: vina,
+             title: "esta alive"
+           };
+           this.map.addMarker(mk3);
        */
+        //INTENTO DE FUNCION
+        /*
+            for(let i = 0; i < this.items[0][what].length(); i++){
+        
+              let pos_parcial = String(this.items[0][what][i]);
+              console.log(pos_parcial);
+              let pos_parcial_split = pos_parcial.split("#");
+              let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+              let marker: MarkerOptions = {
+                  position: pos_marker,
+                  title: what
+              };
+              this.map.addMarker(marker);
+            }
+            */
+        for (var i = 0; i < this.items[0].length; i++) {
+            var sport = String(this.items[0][i][0]);
+            if (sport == String(what)) {
+                var pos_parcial = String(this.items[0][i][1]);
+                var pos_parcial_split = pos_parcial.split(",");
+                var pos_marker = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* LatLng */](parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+                var marker = {
+                    position: pos_marker,
+                    title: String(this.items[0][i][2])
+                };
+                this.map.addMarker(marker);
+            }
+        }
     };
     HomePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
         this.obtenerPosicion();
+        //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
+        this.http.get('https://spottel335.firebaseio.com/.json')
+            .map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.items.push(data);
+        });
     };
     HomePage.prototype.obtenerPosicion = function () {
         var _this = this;
@@ -131,6 +169,7 @@ var HomePage = (function () {
         });
     };
     HomePage.prototype.loadMap = function (positiona) {
+        var _this = this;
         var latitude = positiona.coords.latitude;
         var longitud = positiona.coords.longitude;
         console.log(latitude, longitud);
@@ -149,6 +188,8 @@ var HomePage = (function () {
         };
         map.one(__WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MAP_READY).then(function () {
             console.log('MAP RUDY');
+            //REFRESH SELF POSITION TRY
+            _this.map.setMyLocationEnabled(true);
             //camera to pos
             map.moveCamera(position);
             //new marker
@@ -168,12 +209,15 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Demo SPOT\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div id=\'map\'></div>\n  <ion-list class="accordion-list">\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n        {{ item.name }}\n      </button>\n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">\n          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n          {{ child.name }}\n          </button>\n          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase >{{child.information}}</p>\n            <button ion-button outline item-end (click)="marker()">{{child.information}}</button>\n          </ion-item>\n\n        </ion-list-header>\n\n      </ion-list>\n    </ion-list-header>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Demo SPOT\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div id=\'map\'></div>\n  <ion-list class="accordion-list">\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n        {{ item.name }}\n      </button>\n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">\n          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n          {{ child.name }}\n          </button>\n          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase >{{child.information}}</p>\n            <button ion-button outline item-end (click)="marker(child.name)">{{child.information}}</button>\n          </ion-item>\n\n        </ion-list-header>\n\n      </ion-list>\n    </ion-list-header>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["a" /* GoogleMaps */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["a" /* GoogleMaps */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Http */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__["a" /* Firebase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__ionic_native_firebase__["a" /* Firebase */]) === "function" && _f || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
+        __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["a" /* GoogleMaps */],
+        __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Http */],
+        __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */]])
 ], HomePage);
 
-var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
