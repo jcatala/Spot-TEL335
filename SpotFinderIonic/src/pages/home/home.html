@@ -8,7 +8,14 @@
 </ion-header>
 
 <ion-content>
-  <div id='map'></div>
+  <div id='map'>
+      <div>
+        <button ion-button (click)="goto_list()" onclick="goto_list()"> SET SPORT</button>
+      </div>
+  </div>
+
+  <!--
+
   <ion-list class="accordion-list">
     <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
       <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{'section-active': item.open, 'section': !item.open}">
@@ -35,3 +42,4 @@
     </ion-list-header>
   </ion-list>
 </ion-content>
+-->

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import {NavController, IonicPage, NavParams} from 'ionic-angular';
 
 import 'rxjs/add/operator/map';
 
@@ -18,6 +18,10 @@ import { Storage } from "@ionic/storage";
 import { Firebase} from "@ionic-native/firebase";
 
 import {isUndefined} from "ionic-angular/util/util";
+import {SportlistPage} from "../sportlist/sportlist";
+
+import { Events } from "ionic-angular";
+
 
 @Component({
   selector: 'page-home',
@@ -34,8 +38,10 @@ export class HomePage {
   map: GoogleMap;
 
   constructor(public navCtrl: NavController,
+              public navParams: NavParams,
               public geolocation: Geolocation,
               public googleMaps: GoogleMaps,
+              public events: Events,
               private http: Http,
               private storage: Storage) {
     let localData = this.http.get('assets/information.json').map(res => res.json().items);
@@ -50,6 +56,9 @@ export class HomePage {
       this.maindata = data;
     });
 
+    if(this.navParams.get("firstPassed") != null){
+      this.marker(this.navParams.get("firstPassed"));
+    }
 
   }
 
@@ -58,6 +67,14 @@ export class HomePage {
 
   //
 
+  goto_list(){
+    let sport = null;
+    this.events.subscribe('sport', sport => {
+      this.marker(sport);
+    });
+
+    this.navCtrl.push(SportlistPage)
+  }
 
 
 

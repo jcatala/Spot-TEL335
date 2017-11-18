@@ -16,25 +16,42 @@ import { Firebase} from "@ionic-native/firebase";
 import { IonicStorageModule } from "@ionic/storage";
 import {GooglePlus} from "@ionic-native/google-plus";
 import {LoginPage} from "../pages/login/login";
+import {SportlistPage} from "../pages/sportlist/sportlist";
+import firebase from "firebase";
+import {AngularFireModule} from "angularfire2";
 
+
+export const firebaseConfig = {
+    apiKey: "AIzaSyBHdREPqCH_-sfTi16natq1FrBn9Ob0yPA",
+    authDomain: "spottel335.firebaseapp.com",
+    databaseURL: "https://spottel335.firebaseio.com",
+    projectId: "spottel335",
+    storageBucket: "spottel335.appspot.com",
+    messagingSenderId: "770180402375"
+};
+
+firebase.initializeApp(firebaseConfig);
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SportlistPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     HttpModule,
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SportlistPage
   ],
   providers: [
     StatusBar,

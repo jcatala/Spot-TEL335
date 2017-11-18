@@ -94,6 +94,6 @@
     <plugin name="cordova-plugin-firebase" spec="^0.1.24" />
     <plugin name="cordova-sqlite-storage" spec="^2.1.0" />
     <plugin name="cordova-plugin-googleplus" spec="^5.1.1">
-        <variable name="REVERSED_CLIENT_ID" value="3Ix2TV2R8NEvvYwHLEjza149" />
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i" />
     </plugin>
 </widget>

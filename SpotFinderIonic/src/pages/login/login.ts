@@ -4,6 +4,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 //GOOGLE PLUS
 import { GooglePlus } from "@ionic-native/google-plus";
 import {HomePage} from "../home/home";
+import {Firebase} from "@ionic-native/firebase";
+
+import { AngularFireModule} from "angularfire2";
+import firebase from 'firebase'
 
 /**
  * Generated class for the LoginPage page.
@@ -28,24 +32,56 @@ export class LoginPage {
   imageUrl: any;
   isLoggedIn:boolean = false;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private googlePlus: GooglePlus) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private googlePlus: GooglePlus,) {
   }
+
+
+
+
+
 
   login(){
-    this.googlePlus.login({}).then(res => {
-      console.log(res);
-      this.displayName = res.displayName;
-      this.email = res.em;
-      this.familyName = res.familyName;
-      this.givenName = res.givenName;
-      this.userId = res.userId;
-      this.imageUrl = res.imageURL;
-
-      this.isLoggedIn = true;
+    this.googlePlus.login({
+      'webClientId':'770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com',
+      'offline':true
+    }).then(res => {
+      firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken))
+    }).then( suc => {
       this.navCtrl.setRoot(HomePage);
+    }).catch(err => {
+      console.log(err);
     })
-      .catch(err => console.error(err));
   }
+
+
+
+  /*
+  login(){
+    this.googlePlus.login({
+      'webClientId':'770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com',
+      'offline':true
+    }).then(res => {
+      console.log(res);
+      firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken))
+        .then(suc => {
+            this.navCtrl.setRoot(HomePage);
+
+            this.displayName = res.displayName;
+            this.email = res.em;
+            this.familyName = res.familyName;
+            this.givenName = res.givenName;
+            this.userId = res.userId;
+            this.imageUrl = res.imageURL;
+            this.isLoggedIn = true;
+
+          }
+        ).catch(err => {
+        console.log(err);
+      })
+    }
+  }
+
+  */
 
   logout(){
     this.googlePlus.logout().then(res => {

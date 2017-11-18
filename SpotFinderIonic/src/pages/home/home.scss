@@ -1,8 +1,12 @@
 page-home {
+
   #map{
-    display: block;
-    height: 80%;
+    //display: block;
+    height: 100%;
     width: 100%;
+  }
+  #button{
+    color: cyan;
   }
   .child-item{
     background: white;
