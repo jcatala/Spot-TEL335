@@ -18,6 +18,7 @@ import { Events } from "ionic-angular";
 export class SportlistPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public events: Events) {
+
   }
 
   ionViewDidLoad() {

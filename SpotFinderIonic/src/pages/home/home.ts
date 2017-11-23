@@ -23,6 +23,10 @@ import {SportlistPage} from "../sportlist/sportlist";
 import { Events } from "ionic-angular";
 
 
+import { CurrentInfoProvider } from "../../providers/current-info/current-info";
+
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -37,13 +41,17 @@ export class HomePage {
 
   map: GoogleMap;
 
+
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public geolocation: Geolocation,
               public googleMaps: GoogleMaps,
               public events: Events,
               private http: Http,
-              private storage: Storage) {
+              private storage: Storage,
+              public userInfo: CurrentInfoProvider) {
+
+
     let localData = this.http.get('assets/information.json').map(res => res.json().items);
     localData.subscribe(data => {
       this.information = data;
@@ -69,11 +77,11 @@ export class HomePage {
 
   goto_list(){
     let sport = null;
+    this.navCtrl.push(SportlistPage);
     this.events.subscribe('sport', sport => {
       this.marker(sport);
     });
 
-    this.navCtrl.push(SportlistPage)
   }
 
 

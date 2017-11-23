@@ -19,6 +19,8 @@ import {LoginPage} from "../pages/login/login";
 import {SportlistPage} from "../pages/sportlist/sportlist";
 import firebase from "firebase";
 import {AngularFireModule} from "angularfire2";
+import { CurrentInfoProvider } from '../providers/current-info/current-info';
+
 
 
 export const firebaseConfig = {
@@ -59,7 +61,8 @@ firebase.initializeApp(firebaseConfig);
     Geolocation,
     GoogleMaps,
     GooglePlus,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CurrentInfoProvider
   ]
 })
 export class AppModule {}
