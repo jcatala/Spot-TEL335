@@ -97,4 +97,7 @@
         <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i" />
     </plugin>
     <allow-navigation href="http://10.2.200.232:8100" />
+    <plugin name="cordova-plugin-buildinfo" spec="^2.0.1" />
+    <plugin name="cordova-universal-links-plugin" spec="^1.2.1" />
+    <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
 </widget>

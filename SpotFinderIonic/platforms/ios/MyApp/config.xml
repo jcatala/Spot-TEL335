@@ -86,6 +86,16 @@
         <param name="onload" value="true" />
     </feature>
     <access origin="https://accounts.google.com/*" />
+    <feature name="BuildInfo">
+        <param name="ios-package" value="CDVBuildInfo" />
+    </feature>
+    <feature name="UniversalLinks">
+        <param name="ios-package" value="CULPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BrowserTab">
+        <param name="ios-package" value="CBTBrowserTab" />
+    </feature>
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -97,6 +107,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="http://10.2.200.232:8100" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <icon height="57" src="resources/ios/icon/icon.png" width="57" />

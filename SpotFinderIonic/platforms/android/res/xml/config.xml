@@ -68,6 +68,16 @@
         <param name="onload" value="true" />
     </feature>
     <access origin="https://accounts.google.com/*" />
+    <feature name="BuildInfo">
+        <param name="android-package" value="org.apache.cordova.buildinfo.BuildInfo" />
+    </feature>
+    <feature name="UniversalLinks">
+        <param name="android-package" value="com.nordnetab.cordova.ul.UniversalLinksPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BrowserTab">
+        <param name="android-package" value="com.google.cordova.plugin.browsertab.BrowserTab" />
+    </feature>
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>

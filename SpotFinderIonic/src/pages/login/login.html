@@ -21,6 +21,23 @@
 
   <ng-template #loginTemplate>
     <h1>Please Login to see your Google Account Information</h1>
-    <p><button ion-button (click)="login()">Login With Google</button></p>
+    <p><button ion-button icon-left (click)="logingoogle()">Login With Google</button></p>
   </ng-template>
+
+  <div>
+    <button ion-button icon-left (click)="logingoogle()" block outline >
+      <ion-icon name="logo-googleplus">
+        Entra con gugul
+      </ion-icon>
+    </button>
+
+    <button ion-button icon-left (click)="loginfb()" block outline >
+      <ion-icon name="logo-facebook">
+        Entra con el feibu
+      </ion-icon>
+    </button>
+  </div>
+
+
+
 </ion-content>

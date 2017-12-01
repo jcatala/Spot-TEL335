@@ -14,7 +14,7 @@
     "UIKit.framework": 1,
     "WebKit.framework": 1,
     "AddressBook.framework": 1,
-    "SafariServices.framework": 1,
+    "SafariServices.framework": 2,
     "Security.framework": 1,
     "libz.dylib": 1
 }

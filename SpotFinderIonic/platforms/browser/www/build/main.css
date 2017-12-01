@@ -25680,9 +25680,12 @@ ion-navbar.toolbar {
 }
 
 page-home #map {
-  display: block;
-  height: 80%;
+  height: 100%;
   width: 100%;
+}
+
+page-home #button {
+  color: cyan;
 }
 
 page-home .child-item {

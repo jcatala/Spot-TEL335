@@ -56,6 +56,11 @@
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
+        <key>10.2.200.232</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
         <key>accounts.google.com</key>
         <dict/>
       </dict>

@@ -99,6 +99,18 @@
             {
               "xml": "<access origin=\"https://accounts.google.com/*\" />",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"BuildInfo\"><param name=\"ios-package\" value=\"CDVBuildInfo\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"UniversalLinks\"><param name=\"ios-package\" value=\"CULPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"BrowserTab\"><param name=\"ios-package\" value=\"CBTBrowserTab\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -207,6 +219,15 @@
     },
     "cordova-plugin-googleplus": {
       "REVERSED_CLIENT_ID": "770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com",
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-browsertab": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -470,6 +491,30 @@
       "clobbers": [
         "window.plugins.googleplus"
       ]
+    },
+    {
+      "id": "cordova-plugin-buildinfo.BuildInfo",
+      "file": "plugins/cordova-plugin-buildinfo/www/buildinfo.js",
+      "pluginId": "cordova-plugin-buildinfo",
+      "clobbers": [
+        "BuildInfo"
+      ]
+    },
+    {
+      "id": "cordova-universal-links-plugin.universalLinks",
+      "file": "plugins/cordova-universal-links-plugin/www/universal_links.js",
+      "pluginId": "cordova-universal-links-plugin",
+      "clobbers": [
+        "universalLinks"
+      ]
+    },
+    {
+      "id": "cordova-plugin-browsertab.BrowserTab",
+      "file": "plugins/cordova-plugin-browsertab/www/browsertab.js",
+      "pluginId": "cordova-plugin-browsertab",
+      "clobbers": [
+        "cordova.plugins.browsertab"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -484,6 +529,9 @@
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-firebase": "0.1.24",
     "cordova-sqlite-storage": "2.1.0",
-    "cordova-plugin-googleplus": "5.1.1"
+    "cordova-plugin-googleplus": "5.1.1",
+    "cordova-plugin-buildinfo": "2.0.1",
+    "cordova-universal-links-plugin": "1.2.1",
+    "cordova-plugin-browsertab": "0.2.0"
   }
 }

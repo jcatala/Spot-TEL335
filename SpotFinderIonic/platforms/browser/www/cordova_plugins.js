@@ -230,6 +230,30 @@ module.exports = [
         "clobbers": [
             "window.plugins.googleplus"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-buildinfo/www/buildinfo.js",
+        "id": "cordova-plugin-buildinfo.BuildInfo",
+        "pluginId": "cordova-plugin-buildinfo",
+        "clobbers": [
+            "BuildInfo"
+        ]
+    },
+    {
+        "file": "plugins/cordova-universal-links-plugin/www/universal_links.js",
+        "id": "cordova-universal-links-plugin.universalLinks",
+        "pluginId": "cordova-universal-links-plugin",
+        "clobbers": [
+            "universalLinks"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-browsertab/www/browsertab.js",
+        "id": "cordova-plugin-browsertab.BrowserTab",
+        "pluginId": "cordova-plugin-browsertab",
+        "clobbers": [
+            "cordova.plugins.browsertab"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -245,7 +269,10 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-firebase": "0.1.24",
     "cordova-sqlite-storage": "2.1.0",
-    "cordova-plugin-googleplus": "5.1.1"
+    "cordova-plugin-googleplus": "5.1.1",
+    "cordova-plugin-buildinfo": "2.0.1",
+    "cordova-universal-links-plugin": "1.2.1",
+    "cordova-plugin-browsertab": "0.2.0"
 }
 // BOTTOM OF METADATA
 });

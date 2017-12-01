@@ -17,6 +17,7 @@ import { IonicStorageModule } from "@ionic/storage";
 import {GooglePlus} from "@ionic-native/google-plus";
 import {LoginPage} from "../pages/login/login";
 import {SportlistPage} from "../pages/sportlist/sportlist";
+import { SetlocationPage} from "../pages/setlocation/setlocation";
 import firebase from "firebase";
 import {AngularFireModule} from "angularfire2";
 import { CurrentInfoProvider } from '../providers/current-info/current-info';
@@ -39,12 +40,14 @@ firebase.initializeApp(firebaseConfig);
     MyApp,
     HomePage,
     LoginPage,
-    SportlistPage
+    SportlistPage,
+    SetlocationPage
+
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
     HttpModule,
+    IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
     AngularFireModule.initializeApp(firebaseConfig)
   ],
@@ -53,7 +56,8 @@ firebase.initializeApp(firebaseConfig);
     MyApp,
     HomePage,
     LoginPage,
-    SportlistPage
+    SportlistPage,
+    SetlocationPage
   ],
   providers: [
     StatusBar,

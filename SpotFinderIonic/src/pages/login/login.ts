@@ -40,7 +40,7 @@ export class LoginPage {
 
 
 
-  login(){
+  logingoogle(){
     this.googlePlus.login({
       'webClientId':'770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com',
       'offline':true
@@ -50,6 +50,16 @@ export class LoginPage {
       this.navCtrl.setRoot(HomePage);
     }).catch(err => {
       console.log(err);
+    })
+  }
+
+  loginfb(){
+    let provider = new firebase.auth.FacebookAuthProvider_Instance();
+    firebase.auth().signInWithRedirect(provider).then(()=>
+    {
+      firebase.auth().getRedirectResult().then((result)=>{
+        alert(JSON.stringify(result));
+      }).catch((err)=>{alert(err)})
     })
   }
 

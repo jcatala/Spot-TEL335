@@ -93,6 +93,8 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-firebase/starter-build.gradle"
+apply from: "cordova-plugin-buildinfo/starter-BuildInfo.gradle"
+apply from: "cordova-plugin-browsertab/starter-BrowserTab.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -263,6 +265,7 @@ dependencies {
     compile "com.google.firebase:firebase-config:+"
     compile "com.google.android.gms:play-services-auth:+"
     compile "com.google.android.gms:play-services-identity:+"
+    compile "com.android.support:customtabs:23.3.0"
     // SUB-PROJECT DEPENDENCIES END
 }
 

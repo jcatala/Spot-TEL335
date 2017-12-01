@@ -11,21 +11,25 @@ import {
   LatLng,
   CameraPosition,
   MarkerOptions,
-  Marker
+  Marker, GoogleMapsAnimation
 } from "@ionic-native/google-maps";
 import { Http} from "@angular/http";
 import { Storage } from "@ionic/storage";
+import {IonicStorageModule} from "@ionic/storage";
 import { Firebase} from "@ionic-native/firebase";
 
 import {isUndefined} from "ionic-angular/util/util";
 import {SportlistPage} from "../sportlist/sportlist";
+import { SetlocationPage } from "../setlocation/setlocation";
 
 import { Events } from "ionic-angular";
 
 
 import { CurrentInfoProvider } from "../../providers/current-info/current-info";
+import {count} from "rxjs/operator/count";
 
 
+declare var google;
 
 @Component({
   selector: 'page-home',
@@ -34,9 +38,10 @@ import { CurrentInfoProvider } from "../../providers/current-info/current-info";
 
 export class HomePage {
   information: any[];
-  maindata: any[];
 
   public items: Array<any> = [];
+
+  country: string = "null";
 
 
   map: GoogleMap;
@@ -57,13 +62,6 @@ export class HomePage {
       this.information = data;
     });
 
-
-    let localbd = this.http.get('https://spottel335.firebaseio.com/.json')
-      .map(res => res.json().items);
-    localbd.subscribe(data => {
-      this.maindata = data;
-    });
-
     if(this.navParams.get("firstPassed") != null){
       this.marker(this.navParams.get("firstPassed"));
     }
@@ -79,9 +77,27 @@ export class HomePage {
     let sport = null;
     this.navCtrl.push(SportlistPage);
     this.events.subscribe('sport', sport => {
-      this.marker(sport);
+      if(this.country != "null"){
+        this.marker(sport);
+        this.events.unsubscribe('sport');
+      }
+      else {
+        alert("Please, set county");
+        this.events.unsubscribe("sport");
+      }
     });
 
+  }
+
+  goto_country(){
+
+    this.navCtrl.push(SetlocationPage);
+    this.events.subscribe('country', country => {
+      this.country = country;
+      alert(this.country);
+      this.getJson();
+      this.events.unsubscribe('country');
+    })
   }
 
 
@@ -95,7 +111,17 @@ export class HomePage {
   }
 
   getJson(){
-    return this.http.get('https://spottel335.firebaseio.com/.json').map( res => res.json());
+
+    if(this.country != "null") {
+      this.http.get('https://spottel335.firebaseio.com/' + this.country.toLowerCase() + '.json')
+        .map(res => res.json()).subscribe(data => {
+        this.items.push(data);
+        console.log(this.items);
+
+      });
+    }
+
+
   }
 
   marker(what){
@@ -151,13 +177,15 @@ export class HomePage {
 
     for(let i = 0; i < this.items[0].length; i++){
       let sport = String(this.items[0][i][0]);
+      console.log(this.storage.get(this.items[0][i][0]));
       if (sport == String(what)){
         let pos_parcial = String(this.items[0][i][1]);
         let pos_parcial_split = pos_parcial.split(",");
         let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
         let marker: MarkerOptions = {
           position: pos_marker,
-          title: String(this.items[0][i][2])
+          title: String(this.items[0][i][2]),
+          animation: GoogleMapsAnimation.DROP
         };
         this.map.addMarker(marker);
       }
@@ -169,11 +197,30 @@ export class HomePage {
     this.obtenerPosicion();
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
-
+/*
     this.http.get('https://spottel335.firebaseio.com/.json')
       .map(res => res.json()).subscribe(data => {
       this.items.push(data);
+      console.log(this.items);
+      //SET KEYS
+      for (let i = 0; this.items[0].length; i++){
+        this.storage.set(this.items[0][i][0],[]);
+      }
+      //FULLKEYS
+      for(let i = 0; i < this.items[0].length; i++){
+        let arrtmp = [this.items[0][i][1],this.items[0][i][2]]; // VALUE FROM JSON
+        console.log(arrtmp);
+        let keyvalue = this.storage.get(this.items[0][i][1]);     //VALUE FROM STORAGE
+        keyvalue.then( (value) => {
+          value.push([this.items[0][i][1], this.items[0][i][2]]);
+          this.storage.set(this.items[0][i][0], value);
+          console.log(value);
+        }).catch((err) => {
+          console.log(err);
+        });           //PUSH TO STORAGE
+      }
     });
+*/
 
   }
 
@@ -212,7 +259,7 @@ export class HomePage {
     let position: CameraPosition<LatLng> = {
       target: myPosition,
       zoom: 18,
-      tilt: 30
+      tilt: 60,
     };
 
     map.one(GoogleMapsEvent.MAP_READY).then(()=> {
@@ -232,14 +279,13 @@ export class HomePage {
         title: 'U here' + myPosition.lat + myPosition.lng
       };
 
-      let mo: MarkerOptions = {
-        position: pos1,
-        title: 'VInAYHUEA'
-      }
-
       map.addMarker(markerOptions);
-      map.addMarker(mo);
+      //NUEVO EVENTO PRUEBAS:
+
+
+
     });
+
 
 }
 
