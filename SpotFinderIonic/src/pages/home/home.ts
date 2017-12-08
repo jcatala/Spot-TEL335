@@ -28,6 +28,12 @@ import { Events } from "ionic-angular";
 import { CurrentInfoProvider } from "../../providers/current-info/current-info";
 import {count} from "rxjs/operator/count";
 
+//PRUEBAS DE DATABASEFIREBASE
+
+import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
+import { FirebaseListObservable } from "angularfire2/database-deprecated";
+
+
 
 declare var google;
 
@@ -43,6 +49,10 @@ export class HomePage {
 
   country: string = "null";
 
+  //FIREBASE DATABASE TRY
+  tasks: AngularFireList<any>;
+  tasksref: AngularFireList<any>;
+
 
   map: GoogleMap;
 
@@ -54,8 +64,11 @@ export class HomePage {
               public events: Events,
               private http: Http,
               private storage: Storage,
-              public userInfo: CurrentInfoProvider) {
+              public userInfo: CurrentInfoProvider,
+              public db: AngularFireDatabase) {
 
+
+    this.tasks = db.list('/chile-pruebas');
 
     let localData = this.http.get('assets/information.json').map(res => res.json().items);
     localData.subscribe(data => {
@@ -80,6 +93,7 @@ export class HomePage {
       if(this.country != "null"){
         this.marker(sport);
         this.events.unsubscribe('sport');
+        
       }
       else {
         alert("Please, set county");
@@ -174,7 +188,31 @@ export class HomePage {
     }
     */
 
+    let localdb = [];
+    this.db.database.ref('chile-prueba').once('value',
+      (snapshot) => {
+      snapshot.forEach(snap => {
+        localdb.push(snap.val());
+        return false;
+      })
+    }).then(() => {
+      for (let i = 0; i < localdb.length; i++){
+        if(localdb[i]["sport"] == String(what)){
+          let pos_parcial = String(localdb[i]["location"]);
+          let pos_parcial_split = pos_parcial.split(",");
+          let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+          let marker: MarkerOptions = {
+            position: pos_marker,
+            title: String(localdb[i]["description"]),
+            animation: GoogleMapsAnimation.DROP
+          };
+          this.map.addMarker(marker);
+        }
+      }
+    });
 
+
+    /*
     for(let i = 0; i < this.items[0].length; i++){
       let sport = String(this.items[0][i][0]);
       console.log(this.storage.get(this.items[0][i][0]));
@@ -190,6 +228,9 @@ export class HomePage {
         this.map.addMarker(marker);
       }
     }
+*/
+
+
 
   }
 

@@ -21,7 +21,8 @@ import { SetlocationPage} from "../pages/setlocation/setlocation";
 import firebase from "firebase";
 import {AngularFireModule} from "angularfire2";
 import { CurrentInfoProvider } from '../providers/current-info/current-info';
-
+import { AngularFireDatabase } from "angularfire2/database";
+import {AngularFireDatabaseModule} from "angularfire2/database";
 
 
 export const firebaseConfig = {
@@ -49,7 +50,8 @@ firebase.initializeApp(firebaseConfig);
     HttpModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -66,7 +68,8 @@ firebase.initializeApp(firebaseConfig);
     GoogleMaps,
     GooglePlus,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    CurrentInfoProvider
+    CurrentInfoProvider,
+    AngularFireDatabase
   ]
 })
 export class AppModule {}
