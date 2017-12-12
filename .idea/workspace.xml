@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3a3d71-aec6-4204-9655-c9a440ecb6dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_init.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_init.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_platform.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_mock_node/mock_platform.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_init.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_init.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_platform.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_mock_node/mock_platform.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -21,241 +9,33 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/0.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/0.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/1.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/1.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/2.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/2.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/esm/src/firebaseApp.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/esm/src/firebaseApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/esm/src/firebaseApp.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/dist/esm/src/firebaseApp.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/app/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/index.node.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/index.node.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/SyncTree.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/SyncTree.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/childSet.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/snap/childSet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/util/CountedSet.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/util/CountedSet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/util/SortedMap.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/util/SortedMap.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/view/filter/LimitedFilter.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/core/view/filter/LimitedFilter.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/realtime/WebSocketConnection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/cjs/src/realtime/WebSocketConnection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/index.node.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/index.node.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/SyncTree.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/SyncTree.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/childSet.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/snap/childSet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/util/CountedSet.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/util/CountedSet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/util/SortedMap.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/util/SortedMap.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/view/filter/LimitedFilter.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/core/view/filter/LimitedFilter.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/realtime/WebSocketConnection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/dist/esm/src/realtime/WebSocketConnection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/database/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/CHANGELOG.md" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/credentials.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/database.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/database.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/database.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/user_data_converter.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/api/user_data_converter.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/core/firestore_client.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/garbage_source.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/garbage_source.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/garbage_source.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/garbage_source.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_mutation_queue.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/indexeddb_schema.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_documents_view.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_documents_view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/local/local_store.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/model/mutation.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform/platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform/platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform/platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform/platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/browser_platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_browser/webchannel_connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/grpc_connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/load_protos.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/platform_node/node_platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/backoff.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/datastore.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/persistent_stream.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/persistent_stream.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/remote_event.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/rpc_error.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/serializer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/remote/watch_change.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/util/log.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/util/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/util/log.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/cjs/src/util/log.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/credentials.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/database.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/database.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/database.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/user_data_converter.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/api/user_data_converter.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/firestore_client.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/types.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/types.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/types.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/types.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/view_snapshot.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/view_snapshot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/view_snapshot.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/core/view_snapshot.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/garbage_source.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/garbage_source.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/garbage_source.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/garbage_source.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_mutation_queue.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/indexeddb_schema.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_documents_view.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_documents_view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/local_store.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/query_data.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/query_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/query_data.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/local/query_data.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/field_value.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/field_value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/field_value.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/field_value.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/model/mutation.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform/platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform/platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform/platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform/platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/browser_platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_browser/webchannel_connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/grpc_connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/load_protos.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/platform_node/node_platform.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/backoff.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/connection.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/connection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/connection.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/connection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/datastore.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/persistent_stream.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/persistent_stream.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/remote_event.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/rpc_error.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/serializer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/remote/watch_change.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/util/log.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/util/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/util/log.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/dist/esm/src/util/log.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/firestore/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/controllers/sw-controller.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/models/token-details-model.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/models/token-details-model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/models/token-details-model.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/cjs/src/models/token-details-model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/controllers/sw-controller.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/models/token-details-model.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/models/token-details-model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/models/token-details-model.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/dist/esm/src/models/token-details-model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/messaging/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/cjs/src/implementation/requestinfo.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/requestinfo.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/xhrio.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/xhrio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/xhrio.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/dist/esm/src/implementation/xhrio.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/storage/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/cjs/src/deferred.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.d.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/dist/esm/src/deferred.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/src/deferred.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/@firebase/util/src/deferred.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/angularfire2/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/angularfire2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/externs/firebase-auth-externs.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/externs/firebase-auth-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-app.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-app.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-auth.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-auth.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-auth.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-database.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-database.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-database.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-firestore.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-firestore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-firestore.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-firestore.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-messaging.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-messaging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-messaging.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-messaging.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-storage.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-storage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-storage.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase-storage.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/firebase.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/CHANGELOG.md" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/README.md" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/bower.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/promise.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/promise.min.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/promise.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/test/promise.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/node_modules/promise-polyfill/test/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/package-lock.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/package.json" afterPath="$PROJECT_DIR$/SpotFinderIonic/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/0.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/0.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/0.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/1.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/1.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/1.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/2.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/2.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/2.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/3.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/0.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/0.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/0.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/1.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/1.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/1.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/2.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/2.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/2.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/3.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" />
@@ -279,28 +59,38 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
-                  <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+                <state relative-caret-position="240">
+                  <caret line="214" column="51" lean-forward="false" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
                     <element signature="e#928#1003#0" expanded="true" />
-                    <element signature="e#3414#3939#0" expanded="false" />
-                    <element signature="e#3967#4428#0" expanded="false" />
+                    <element signature="e#3905#4430#0" expanded="false" />
+                    <element signature="e#4458#4919#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="newspot.module.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.module.ts">
+          <file leaf-file-name="newspot.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="468">
+                  <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#475#1795#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -309,10 +99,45 @@
           <file leaf-file-name="setlocation.module.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="234">
+                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="newspot.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="370">
+                  <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="564">
+                  <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="true" />
+                    <element signature="e#127#182#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -321,8 +146,8 @@
           <file leaf-file-name="setlocation.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="846">
-                  <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+                <state relative-caret-position="154">
+                  <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
                   </folding>
@@ -330,21 +155,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sportlist.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html">
+          <file leaf-file-name="sportlist.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+                <state relative-caret-position="216">
+                  <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -353,42 +168,10 @@
           <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+                <state relative-caret-position="744">
+                  <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
                   <folding>
                     <element signature="e#0#58#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1656">
-                  <caret line="92" column="31" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="current-info.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/providers/current-info/current-info.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#0#43#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -398,16 +181,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
+          <file leaf-file-name="newspot.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1622">
-                  <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+                <state relative-caret-position="42">
+                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
-                    <element signature="e#928#1003#0" expanded="true" />
-                    <element signature="e#3414#3939#0" expanded="false" />
-                    <element signature="e#3967#4428#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -444,12 +224,14 @@
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/providers/current-info/current-info.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" />
       </list>
     </option>
   </component>
@@ -467,9 +249,8 @@
     <handled-path value="$PROJECT_DIR$/SpotFinderIonic/plugins/cordova-universal-links-plugin/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -488,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -604,12 +386,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab-analoga/proyecto" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="excluded.www.directory" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -665,33 +446,35 @@
       <workItem from="1512064318432" duration="2927000" />
       <workItem from="1512159628884" duration="10561000" />
       <workItem from="1512667492688" duration="114000" />
-      <workItem from="1512684856071" duration="7858000" />
+      <workItem from="1512684856071" duration="8095000" />
+      <workItem from="1513034713177" duration="80000" />
+      <workItem from="1513104441436" duration="13503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111623000" />
+    <option name="totallyTimeSpent" value="125443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19725738" sideWeight="0.49138921" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19672132" sideWeight="0.49138921" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07438895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07475083" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19883966" sideWeight="0.5086108" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -708,20 +491,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -729,8 +498,8 @@
           <folding>
             <element signature="e#0#42#0" expanded="true" />
             <element signature="e#928#1003#0" expanded="true" />
-            <element signature="e#3414#3939#0" expanded="false" />
-            <element signature="e#3967#4428#0" expanded="false" />
+            <element signature="e#3905#4430#0" expanded="false" />
+            <element signature="e#4458#4919#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,8 +540,8 @@
           <folding>
             <element signature="e#0#42#0" expanded="true" />
             <element signature="e#928#1003#0" expanded="true" />
-            <element signature="e#3414#3939#0" expanded="false" />
-            <element signature="e#3967#4428#0" expanded="false" />
+            <element signature="e#3905#4430#0" expanded="false" />
+            <element signature="e#4458#4919#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,7 +655,7 @@
         <state relative-caret-position="360">
           <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,13 +668,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/node_modules/firebase/app/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="396" column="4" lean-forward="false" selection-start-line="396" selection-start-column="4" selection-end-line="396" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,22 +730,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.module.ts">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -947,70 +758,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="744">
+          <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="89" lean-forward="false" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
-          <folding>
-            <element signature="e#400#1720#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -1025,31 +792,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="214" column="51" lean-forward="false" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
             <element signature="e#928#1003#0" expanded="true" />
-            <element signature="e#3414#3939#0" expanded="false" />
-            <element signature="e#3967#4428#0" expanded="false" />
+            <element signature="e#3905#4430#0" expanded="false" />
+            <element signature="e#4458#4919#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#127#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#475#1795#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

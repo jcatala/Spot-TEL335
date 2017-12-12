@@ -1,6 +1,19 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { AngularFireDatabase} from "angularfire2/database";
+import { AngularFireList } from "angularfire2/database";
+import { Firebase } from "@ionic-native/firebase";
+import {Events } from "ionic-angular";
+
+import { Geolocation } from "@ionic-native/geolocation";
+import { Geoposition } from "@ionic-native/geolocation";
+import {stringify} from "@angular/core/src/util";
+import { GooglePlus } from "@ionic-native/google-plus";
+import firebase from 'firebase';
+
+
+
 /**
  * Generated class for the NewspotPage page.
  *
@@ -12,14 +25,94 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @Component({
   selector: 'page-newspot',
   templateUrl: 'newspot.html',
+  providers: [GooglePlus]
 })
 export class NewspotPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  location: any;
+
+  coords: any;
+
+  tasksred: AngularFireList<any>;
+
+  sport: string;
+  descr:string;
+
+
+  country: string;
+
+  userprofile: any;
+  email: any;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+              public db:AngularFireDatabase,
+              public events: Events,
+              public geolocation: Geolocation,
+              private googleplus: GooglePlus) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad NewspotPage');
+    console.log('Cargado!');
+
+    //setea location
+    this.location = this.navParams.get("location").toLowerCase();
+    alert(this.location);
+
+    this.tasksred = this.db.list(String(this.location));
+
+    firebase.auth().onAuthStateChanged(user => {
+      if (user){
+        this.userprofile = user;
+      } else{
+        this.userprofile = null;
+      }
+    });
+
+    alert(this.userprofile);
+
+
   }
+
+  submit(){
+    this.geolocation.getCurrentPosition().then(resp => {
+      this.submitSpot(resp, this.descr,this.sport);
+    })
+      .catch( err => {
+        console.log(err);
+      })
+  }
+
+  submitSpot(position: Geoposition, description, sport){
+    //OWN POSITION
+    if(this.country == "null"){
+      this.events.publish("send", "no mandado");
+      this.navCtrl.pop();
+    }
+    else {
+
+      let latitude = position.coords.latitude;
+
+      let logitude = position.coords.longitude;
+
+      let newSpotRef = this.tasksred.push({});
+
+      newSpotRef.set({
+        id: newSpotRef.key,
+        author: "ELPICO",
+        description: String(description),
+        likes: 0,
+        dislikes: 0,
+        location: String(latitude) + "," + String(logitude),
+        sport: String(sport)
+      });
+      this.events.publish("send", "mandado");
+      this.navCtrl.pop();
+    }
+
+
+  }
+
+
+
 
 }

@@ -8,6 +8,10 @@ import {Firebase} from "@ionic-native/firebase";
 
 import { AngularFireModule} from "angularfire2";
 import firebase from 'firebase'
+import { Storage } from "@ionic/storage";
+
+import { Events } from "ionic-angular";
+
 
 /**
  * Generated class for the LoginPage page.
@@ -32,7 +36,9 @@ export class LoginPage {
   imageUrl: any;
   isLoggedIn:boolean = false;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private googlePlus: GooglePlus,) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private googlePlus: GooglePlus,
+              public localStorage: Storage,
+              public events: Events) {
   }
 
 
@@ -45,7 +51,15 @@ export class LoginPage {
       'webClientId':'770180402375-cu8lv89gjh4qo1utndk2fc3rsula100i.apps.googleusercontent.com',
       'offline':true
     }).then(res => {
-      firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken))
+      firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken));
+      this.localStorage.set('datos',{
+        name: res.displayName,
+        email: res.em,
+        email2: "awe",
+        userid: res.userId,
+        imageurl: res.imageUrl
+      });
+
     }).then( suc => {
       this.navCtrl.setRoot(HomePage);
     }).catch(err => {

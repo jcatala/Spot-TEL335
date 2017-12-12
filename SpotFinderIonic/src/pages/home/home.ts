@@ -32,6 +32,8 @@ import {count} from "rxjs/operator/count";
 
 import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
 import { FirebaseListObservable } from "angularfire2/database-deprecated";
+import {GooglePlus} from "@ionic-native/google-plus";
+import {NewspotPage} from "../newspot/newspot";
 
 
 
@@ -65,7 +67,10 @@ export class HomePage {
               private http: Http,
               private storage: Storage,
               public userInfo: CurrentInfoProvider,
-              public db: AngularFireDatabase) {
+              public db: AngularFireDatabase,
+              private googleplus: GooglePlus,
+              public localstorage:Storage) {
+
 
 
     this.tasks = db.list('/chile-pruebas');
@@ -93,11 +98,29 @@ export class HomePage {
       if(this.country != "null"){
         this.marker(sport);
         this.events.unsubscribe('sport');
-        
+        //
+        //
+
       }
       else {
         alert("Please, set county");
         this.events.unsubscribe("sport");
+      }
+    });
+
+  }
+
+  goto_new_spot(){
+    let spot = null;
+    this.navCtrl.push(NewspotPage,{
+      location: this.country
+    });
+    this.events.subscribe("send", send=>{
+      if (send != "mandado"){
+        alert("no mandado");
+      }
+      else {
+        alert("Mandado !");
       }
     });
 
@@ -189,7 +212,7 @@ export class HomePage {
     */
 
     let localdb = [];
-    this.db.database.ref('chile-prueba').once('value',
+    this.db.database.ref(this.country.toLowerCase()).once('value',
       (snapshot) => {
       snapshot.forEach(snap => {
         localdb.push(snap.val());
@@ -236,6 +259,8 @@ export class HomePage {
 
   ionViewDidLoad(){
     this.obtenerPosicion();
+    alert(this.localstorage.get('datos')['email']);
+
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
 /*

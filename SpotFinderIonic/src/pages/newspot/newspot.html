@@ -15,4 +15,18 @@
 
 <ion-content padding>
 
+  <ion-list>
+    <ion-item>
+      <ion-label>Sport!</ion-label>
+      <ion-select [(ngModel)]="sport">
+        <ion-option value="Basketball">Basketball</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="descr" placeholder="Descr"></ion-input>
+    </ion-item>
+  </ion-list>
+
+ <button ion-button (click)="submit()">Send it !</button>
 </ion-content>

@@ -18,6 +18,8 @@ import {GooglePlus} from "@ionic-native/google-plus";
 import {LoginPage} from "../pages/login/login";
 import {SportlistPage} from "../pages/sportlist/sportlist";
 import { SetlocationPage} from "../pages/setlocation/setlocation";
+import { NewspotPage } from "../pages/newspot/newspot";
+
 import firebase from "firebase";
 import {AngularFireModule} from "angularfire2";
 import { CurrentInfoProvider } from '../providers/current-info/current-info';
@@ -42,7 +44,8 @@ firebase.initializeApp(firebaseConfig);
     HomePage,
     LoginPage,
     SportlistPage,
-    SetlocationPage
+    SetlocationPage,
+    NewspotPage
 
   ],
   imports: [
@@ -59,7 +62,8 @@ firebase.initializeApp(firebaseConfig);
     HomePage,
     LoginPage,
     SportlistPage,
-    SetlocationPage
+    SetlocationPage,
+    NewspotPage
   ],
   providers: [
     StatusBar,
