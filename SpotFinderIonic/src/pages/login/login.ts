@@ -36,9 +36,13 @@ export class LoginPage {
   imageUrl: any;
   isLoggedIn:boolean = false;
 
+  user: {};
+
   constructor(public navCtrl: NavController, public navParams: NavParams, private googlePlus: GooglePlus,
               public localStorage: Storage,
               public events: Events) {
+
+
   }
 
 
@@ -52,16 +56,12 @@ export class LoginPage {
       'offline':true
     }).then(res => {
       firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken));
-      this.localStorage.set('datos',{
-        name: res.displayName,
-        email: res.em,
-        email2: "awe",
-        userid: res.userId,
-        imageurl: res.imageUrl
+      this.user = res;
+    }).then( suc => {
+      this.navCtrl.setRoot(HomePage, {
+        datos: this.user
       });
 
-    }).then( suc => {
-      this.navCtrl.setRoot(HomePage);
     }).catch(err => {
       console.log(err);
     })

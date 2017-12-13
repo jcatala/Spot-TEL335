@@ -45,6 +45,8 @@ declare var google;
 })
 
 export class HomePage {
+
+  user_info: {};
   information: any[];
 
   public items: Array<any> = [];
@@ -93,36 +95,46 @@ export class HomePage {
 
   goto_list(){
     let sport = null;
-    this.navCtrl.push(SportlistPage);
-    this.events.subscribe('sport', sport => {
-      if(this.country != "null"){
-        this.marker(sport);
-        this.events.unsubscribe('sport');
-        //
-        //
+      if (this.country != "null") {
+        this.navCtrl.push(SportlistPage);
+        this.events.subscribe('sport', sport => {
+          if (this.country != "null") {
+            this.marker(sport);
+            this.events.unsubscribe('sport');
+            //
+            //
 
+          }
+          else {
+            alert("Please, set county");
+            this.events.unsubscribe("sport");
+          }
+        });
       }
-      else {
-        alert("Please, set county");
-        this.events.unsubscribe("sport");
+      else{
+        alert("Please, set country");
       }
-    });
 
   }
 
   goto_new_spot(){
     let spot = null;
-    this.navCtrl.push(NewspotPage,{
-      location: this.country
-    });
-    this.events.subscribe("send", send=>{
-      if (send != "mandado"){
-        alert("no mandado");
+      if(this.country != "null") {
+        this.navCtrl.push(NewspotPage, {
+          location: this.country,
+          user_info: this.user_info
+        });
+        this.events.subscribe("send", send => {
+          if (send != "mandado") {
+            alert("no mandado");
+          }
+          else {
+            alert("Mandado !");
+          }
+        });
+      }else{
+        alert("Please, set country");
       }
-      else {
-        alert("Mandado !");
-      }
-    });
 
   }
 
@@ -258,8 +270,10 @@ export class HomePage {
   }
 
   ionViewDidLoad(){
+    this.user_info = this.navParams.get('datos');
+
     this.obtenerPosicion();
-    alert(this.localstorage.get('datos')['email']);
+
 
 
     //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!

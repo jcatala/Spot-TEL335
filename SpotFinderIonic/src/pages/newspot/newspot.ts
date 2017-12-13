@@ -44,6 +44,8 @@ export class NewspotPage {
   userprofile: any;
   email: any;
 
+  user_info: {};
+
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public db:AngularFireDatabase,
               public events: Events,
@@ -53,22 +55,13 @@ export class NewspotPage {
 
   ionViewDidLoad() {
     console.log('Cargado!');
+    this.user_info = this.navParams.get('user_info');
 
     //setea location
     this.location = this.navParams.get("location").toLowerCase();
-    alert(this.location);
 
     this.tasksred = this.db.list(String(this.location));
 
-    firebase.auth().onAuthStateChanged(user => {
-      if (user){
-        this.userprofile = user;
-      } else{
-        this.userprofile = null;
-      }
-    });
-
-    alert(this.userprofile);
 
 
   }
@@ -98,7 +91,7 @@ export class NewspotPage {
 
       newSpotRef.set({
         id: newSpotRef.key,
-        author: "ELPICO",
+        author: this.user_info['email'],
         description: String(description),
         likes: 0,
         dislikes: 0,
