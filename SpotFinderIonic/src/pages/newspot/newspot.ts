@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Alert, IonicPage, NavController, NavParams} from 'ionic-angular';
 
 import { AngularFireDatabase} from "angularfire2/database";
 import { AngularFireList } from "angularfire2/database";
@@ -13,7 +13,7 @@ import { GooglePlus } from "@ionic-native/google-plus";
 import firebase from 'firebase';
 
 import {Camera, CameraOptions} from "@ionic-native/camera";
-
+import {AlertController} from "ionic-angular";
 
 /**
  * Generated class for the NewspotPage page.
@@ -48,7 +48,7 @@ export class NewspotPage {
   user_info: {};
 
   picdata: any;
-  picurl: any;
+  picurl: string;
   mypicref: any;
 
 
@@ -58,7 +58,8 @@ export class NewspotPage {
               public events: Events,
               public geolocation: Geolocation,
               private googleplus: GooglePlus,
-              private camera: Camera) {
+              private camera: Camera,
+              private alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -71,6 +72,8 @@ export class NewspotPage {
     this.tasksred = this.db.list(String(this.location));
 
     this.mypicref = firebase.storage().ref('/' + this.location);
+
+    this.picurl = "null";
 
 
   }
@@ -92,23 +95,35 @@ export class NewspotPage {
     }
     else {
 
-      let latitude = position.coords.latitude;
+      if (this.picurl != "null"){
+        let latitude = position.coords.latitude;
 
-      let logitude = position.coords.longitude;
+        let logitude = position.coords.longitude;
 
-      let newSpotRef = this.tasksred.push({});
+        let newSpotRef = this.tasksred.push({});
+        let key = newSpotRef.key;
+        newSpotRef.set({
+          id: key,
+          author: this.user_info['displayName'],
+          description: String(description),
+          likes: 0,
+          dislikes: 0,
+          location: String(latitude) + "," + String(logitude),
+          sport: String(sport)
+        });
+        this.upload(key);
+        this.events.publish("send", "mandado");
+        this.navCtrl.pop();
+      }
+      else {
 
-      newSpotRef.set({
-        id: newSpotRef.key,
-        author: this.user_info['email'],
-        description: String(description),
-        likes: 0,
-        dislikes: 0,
-        location: String(latitude) + "," + String(logitude),
-        sport: String(sport)
-      });
-      this.events.publish("send", "mandado");
-      this.navCtrl.pop();
+        let alert = this.alertCtrl.create({
+          title: "No image added.",
+          message: "Please, take a picture !",
+          buttons: ['OK']
+        });
+        alert.present();
+      }
     }
 
 
@@ -125,10 +140,26 @@ export class NewspotPage {
 
     this.camera.getPicture(cameraOptions)
       .then((imagedata) => {
-        this.picurl = 'data:image/jpeg;base64' + imagedata;
+        //this.picurl = 'data:image/jpeg;base64' + imagedata;
+        this.picurl = `data:image/jpeg;base64,${imagedata}`;
       },err => {
         console.log(err);
       });
+
+  }
+
+  upload(id){
+    let storageRef = firebase.storage().ref();
+    //FILENAME
+    const filename = id;
+
+    //REFERENCE
+    const imageRef = storageRef.child(`images/${filename}.jpg`);
+
+    //UPLOAD
+    imageRef.putString(this.picurl,'data_url');
+
+
 
   }
 

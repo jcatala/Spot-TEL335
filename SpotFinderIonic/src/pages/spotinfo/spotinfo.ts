@@ -4,6 +4,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
 import {FirebaseListObservable} from "angularfire2/database-deprecated";
 import {AlertController} from "ionic-angular";
+import * as firebase from "firebase";
 
 
 /**
@@ -28,6 +29,7 @@ export class SpotinfoPage {
   id: any;
   user: any;
   description: any;
+  imgsource: any;
 
 
   dislikedado = 0;
@@ -65,7 +67,15 @@ export class SpotinfoPage {
 
 
     //ASIGNACION DE VALORES
-
+    try {
+      firebase.storage().ref().child('/images/' + this.id + '.jpg')
+        .getDownloadURL().then(url => {
+        this.imgsource = url;
+      })
+    }
+    catch (err){
+      console.log(err);
+    }
 
 
   }

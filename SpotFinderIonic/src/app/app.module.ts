@@ -26,6 +26,7 @@ import { CurrentInfoProvider } from '../providers/current-info/current-info';
 import { AngularFireDatabase } from "angularfire2/database";
 import {AngularFireDatabaseModule} from "angularfire2/database";
 import {SpotinfoPage} from "../pages/spotinfo/spotinfo";
+import {Camera} from "@ionic-native/camera";
 
 
 export const firebaseConfig = {
@@ -76,7 +77,8 @@ firebase.initializeApp(firebaseConfig);
     GooglePlus,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     CurrentInfoProvider,
-    AngularFireDatabase
+    AngularFireDatabase,
+    Camera
   ]
 })
 export class AppModule {}
