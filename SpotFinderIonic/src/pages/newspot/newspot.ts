@@ -16,7 +16,6 @@ import {Camera, CameraOptions} from "@ionic-native/camera";
 import {AlertController} from "ionic-angular";
 
 
-
 /**
  * Generated class for the NewspotPage page.
  *
@@ -63,6 +62,7 @@ export class NewspotPage {
               private camera: Camera,
               private alertCtrl: AlertController,
               public loadingCtrl: LoadingController) {
+
   }
 
   presentLoadingDefault(){
