@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Alert, IonicPage, NavController, NavParams} from 'ionic-angular';
+import {Alert, IonicPage, LoadingController, NavController, NavParams} from 'ionic-angular';
 
 import { AngularFireDatabase} from "angularfire2/database";
 import { AngularFireList } from "angularfire2/database";
@@ -14,6 +14,8 @@ import firebase from 'firebase';
 
 import {Camera, CameraOptions} from "@ionic-native/camera";
 import {AlertController} from "ionic-angular";
+
+
 
 /**
  * Generated class for the NewspotPage page.
@@ -59,7 +61,22 @@ export class NewspotPage {
               public geolocation: Geolocation,
               private googleplus: GooglePlus,
               private camera: Camera,
-              private alertCtrl: AlertController) {
+              private alertCtrl: AlertController,
+              public loadingCtrl: LoadingController) {
+  }
+
+  presentLoadingDefault(){
+    let loading = this.loadingCtrl.create({
+     // content: 'Please wait... working !',
+      content:`
+      <div class="custom-spinner-container">
+        <div class="custom-spinner-box"></div>
+      </div>`,
+    });
+    loading.present();
+    setTimeout(()=>{
+      loading.dismiss();
+    },5000);
   }
 
   ionViewDidLoad() {
@@ -95,7 +112,7 @@ export class NewspotPage {
     }
     else {
 
-      if (this.picurl != "null"){
+      if (this.picurl != "null" && this.sport != undefined){
         let latitude = position.coords.latitude;
 
         let logitude = position.coords.longitude;
@@ -113,16 +130,28 @@ export class NewspotPage {
         });
         this.upload(key);
         this.events.publish("send", "mandado");
+
+        this.presentLoadingDefault();
+
         this.navCtrl.pop();
       }
       else {
-
-        let alert = this.alertCtrl.create({
-          title: "No image added.",
-          message: "Please, take a picture !",
-          buttons: ['OK']
-        });
-        alert.present();
+        if(this.picurl == "null") {
+          let alert = this.alertCtrl.create({
+            title: "No image added.",
+            message: "Please, take a picture !",
+            buttons: ['OK']
+          });
+          alert.present();
+        }
+        if (this.sport == undefined){
+          let alert = this.alertCtrl.create({
+            title: "No sport defined",
+            message: "Please, select a sport !",
+            buttons: ['OK']
+          });
+          alert.present();
+        }
       }
     }
 

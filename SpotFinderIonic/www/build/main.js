@@ -116,10 +116,10 @@ var LoginPage = (function () {
 }());
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-login',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div *ngIf="isLoggedIn; else loginTemplate">\n    <h1>Welcome, {{displayName}}!</h1>\n    <p>Email: {{email}}<br>\n      Family Name: {{familyName}}<br>\n      Given Name: {{givenName}}<br>\n      User ID: {{userId}}</p>\n    <p><ion-avatar item-left>\n      <img src="{{imageUrl}}">\n    </ion-avatar></p>\n    <p><button ion-button (click)="logout()">Logout From Google</button></p>\n  </div>\n\n  <ng-template #loginTemplate>\n    <h1>Please Login to see your Google Account Information</h1>\n    <p><button ion-button icon-left (click)="logingoogle()">Login With Google</button></p>\n  </ng-template>\n\n  <div>\n    <button ion-button icon-left (click)="logingoogle()" block outline >\n      <ion-icon name="logo-googleplus">\n        Entra con gugul\n      </ion-icon>\n    </button>\n\n    <button ion-button icon-left (click)="loginfb()" block outline >\n      <ion-icon name="logo-facebook">\n        Entra con el feibu\n      </ion-icon>\n    </button>\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/,
+        selector: 'page-login',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div *ngIf="isLoggedIn; else loginTemplate">\n    <h1>Welcome, {{displayName}}!</h1>\n    <p>Email: {{email}}<br>\n      Family Name: {{familyName}}<br>\n      Given Name: {{givenName}}<br>\n      User ID: {{userId}}</p>\n    <p><ion-avatar item-left>\n      <img src="{{imageUrl}}">\n    </ion-avatar></p>\n    <p><button ion-button (click)="logout()">Logout From Google</button></p>\n  </div>\n\n  <ng-template #loginTemplate>\n    <h1>Please Login to see your Google Account Information</h1>\n    <p><button ion-button icon-left (click)="logingoogle()">Login With Google</button></p>\n  </ng-template>\n\n  <div>\n    <button ion-button icon-left (click)="logingoogle()" block outline >\n      <ion-icon name="logo-googleplus">\n        Entra con gugul\n      </ion-icon>\n    </button>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */],
         __WEBPACK_IMPORTED_MODULE_5__ionic_storage__["b" /* Storage */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], LoginPage);
@@ -170,9 +170,9 @@ var SportlistPage = (function () {
 }());
 SportlistPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-sportlist',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/'<!--\n  Generated template for the SportlistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>sportlist</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-list>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>Basketball</h2>\n      <p>Basketball courts</p>\n      <button ion-button clear item-end (click)="submit(\'Basketball\')">Find it!</button>\n    </ion-item>\n  </ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/,
+        selector: 'page-sportlist',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/'<!--\n  Generated template for the SportlistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>sportlist</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-list>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/basket.png">\n      </ion-thumbnail>\n      <h2>Basketball</h2>\n      <p>Basketball courts</p>\n      <button ion-button clear item-end (click)="submit(\'Basketball\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/fut.png">\n      </ion-thumbnail>\n      <h2>Football</h2>\n      <p>Football courts</p>\n      <button ion-button clear item-end (click)="submit(\'Football\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/tennis.png">\n      </ion-thumbnail>\n      <h2>Tennis</h2>\n      <p>Tennis courts</p>\n      <button ion-button clear item-end (click)="submit(\'Tennis\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>Aggressive Skate</h2>\n      <button ion-button clear item-end (click)="submit(\'Aggressive Skate\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>Skate</h2>\n      <p>Basketball courts</p>\n      <button ion-button clear item-end (click)="submit(\'Skate\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>BMX</h2>\n      <button ion-button clear item-end (click)="submit(\'BMX\')">Find it!</button>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>Parkour</h2>\n      <button ion-button clear item-end (click)="submit(\'Parkour\')">Find it!</button>\n    </ion-item>\n\n  </ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], SportlistPage);
 
 //# sourceMappingURL=sportlist.js.map
@@ -205,13 +205,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var SetlocationPage = (function () {
-    function SetlocationPage(navCtrl, navParams, events) {
+    function SetlocationPage(navCtrl, navParams, events, loadingCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.events = events;
+        this.loadingCtrl = loadingCtrl;
         this.searchQuery = '';
         this.initializeItems();
     }
+    SetlocationPage.prototype.presentLoadingDefault = function () {
+        var loading = this.loadingCtrl.create({
+            // content: 'Please wait... working !',
+            content: "\n      <div class=\"custom-spinner-container\">\n        <p>Making changes, please wait...</p>\n        <div class=\"custom-spinner-box\"></div>\n      </div>",
+        });
+        loading.present();
+        setTimeout(function () {
+            loading.dismiss();
+        }, 2500);
+    };
     SetlocationPage.prototype.initializeItems = function () {
         this.items = [
             "Chile"
@@ -231,6 +242,7 @@ var SetlocationPage = (function () {
     };
     SetlocationPage.prototype.submit = function (what) {
         this.events.publish('country', what);
+        this.presentLoadingDefault();
         this.navCtrl.pop();
     };
     return SetlocationPage;
@@ -239,7 +251,8 @@ SetlocationPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-setlocation',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/setlocation/setlocation.html"*/'<!--\n  Generated template for the SetlocationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>setlocation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n  <ion-list>\n\n    <button *ngFor="let item of items" ion-item (click)="submit(item)">\n      {{item}}\n    </button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/setlocation/setlocation.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]])
 ], SetlocationPage);
 
 //# sourceMappingURL=setlocation.js.map
@@ -284,7 +297,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var NewspotPage = (function () {
-    function NewspotPage(navCtrl, navParams, db, events, geolocation, googleplus, camera, alertCtrl) {
+    function NewspotPage(navCtrl, navParams, db, events, geolocation, googleplus, camera, alertCtrl, loadingCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.db = db;
@@ -293,7 +306,18 @@ var NewspotPage = (function () {
         this.googleplus = googleplus;
         this.camera = camera;
         this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
     }
+    NewspotPage.prototype.presentLoadingDefault = function () {
+        var loading = this.loadingCtrl.create({
+            // content: 'Please wait... working !',
+            content: "\n      <div class=\"custom-spinner-container\">\n        <div class=\"custom-spinner-box\"></div>\n      </div>",
+        });
+        loading.present();
+        setTimeout(function () {
+            loading.dismiss();
+        }, 5000);
+    };
     NewspotPage.prototype.ionViewDidLoad = function () {
         console.log('Cargado!');
         this.user_info = this.navParams.get('user_info');
@@ -319,7 +343,7 @@ var NewspotPage = (function () {
             this.navCtrl.pop();
         }
         else {
-            if (this.picurl != "null") {
+            if (this.picurl != "null" && this.sport != undefined) {
                 var latitude = position.coords.latitude;
                 var logitude = position.coords.longitude;
                 var newSpotRef = this.tasksred.push({});
@@ -335,15 +359,26 @@ var NewspotPage = (function () {
                 });
                 this.upload(key);
                 this.events.publish("send", "mandado");
+                this.presentLoadingDefault();
                 this.navCtrl.pop();
             }
             else {
-                var alert_1 = this.alertCtrl.create({
-                    title: "No image added.",
-                    message: "Please, take a picture !",
-                    buttons: ['OK']
-                });
-                alert_1.present();
+                if (this.picurl == "null") {
+                    var alert_1 = this.alertCtrl.create({
+                        title: "No image added.",
+                        message: "Please, take a picture !",
+                        buttons: ['OK']
+                    });
+                    alert_1.present();
+                }
+                if (this.sport == undefined) {
+                    var alert_2 = this.alertCtrl.create({
+                        title: "No sport defined",
+                        message: "Please, select a sport !",
+                        buttons: ['OK']
+                    });
+                    alert_2.present();
+                }
             }
         }
     };
@@ -376,16 +411,17 @@ var NewspotPage = (function () {
 }());
 NewspotPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-newspot',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/'<!--\n  Generated template for the NewspotPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>newspot</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-label>Sport!</ion-label>\n      <ion-select [(ngModel)]="sport">\n        <ion-option value="Basketball">Basketball</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" [(ngModel)]="descr" placeholder="Descr"></ion-input>\n    </ion-item>\n  </ion-list>\n\n <button ion-button (click)="submit()">Send it !</button>\n\n  <button ion-button (click)="capture()">\n    IMAGENXDXD\n  </button>\n  <img [src]="picurl" *ngIf="picurl">\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/,
+        selector: 'page-newspot',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/'<!--\n  Generated template for the NewspotPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>newspot</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-label>Sport!</ion-label>\n      <ion-select [(ngModel)]="sport">\n        <ion-option value="Aggressive Skate">Aggressive Skate</ion-option>\n\n        <ion-option value="BMX">BMX</ion-option>\n\n        <ion-option value="Skate">Skate</ion-option>\n\n        <ion-option value="Parkour">Parkour</ion-option>\n\n        <ion-option value="Basketball">Basketball</ion-option>\n\n        <ion-option value="Football">Football</ion-option>\n\n        <ion-option value="Tennis">Tennis</ion-option>\n\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" [(ngModel)]="descr" placeholder="Descr"></ion-input>\n    </ion-item>\n  </ion-list>\n\n <button ion-button (click)="submit()">Send it !</button>\n\n  <button ion-button (click)="capture()">\n    IMAGENXDXD\n  </button>\n  <img [src]="picurl" *ngIf="picurl">\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
         __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
         __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */],
         __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__["a" /* Camera */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]])
 ], NewspotPage);
 
 //# sourceMappingURL=newspot.js.map
@@ -423,14 +459,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var SpotinfoPage = (function () {
-    function SpotinfoPage(navCtrl, navParams, db, alertCtrl) {
+    function SpotinfoPage(navCtrl, navParams, db, alertCtrl, loadingCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.db = db;
         this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
         this.dislikedado = 0;
         this.likedado = 0;
     }
+    SpotinfoPage.prototype.presentLoadingDefault = function () {
+        var loading = this.loadingCtrl.create({
+            // content: 'Please wait... working !',
+            content: "\n      <div class=\"custom-spinner-container\">\n      <p>Loading content... please wait</p>\n        <div class=\"custom-spinner-box\"></div>\n      </div>",
+        });
+        loading.present();
+        setTimeout(function () {
+            loading.dismiss();
+        }, 2000);
+    };
     SpotinfoPage.prototype.ionViewDidLoad = function () {
         var _this = this;
         console.log('ionViewDidLoad SpotinfoPage');
@@ -448,10 +495,16 @@ var SpotinfoPage = (function () {
             _this.author = snapshot.val()['author'];
         });
         //ASIGNACION DE VALORES
-        __WEBPACK_IMPORTED_MODULE_3_firebase__["storage"]().ref().child('/images/' + this.id + '.jpg')
-            .getDownloadURL().then(function (url) {
-            _this.imgsource = url;
-        });
+        try {
+            __WEBPACK_IMPORTED_MODULE_3_firebase__["storage"]().ref().child('/images/' + this.id + '.jpg')
+                .getDownloadURL().then(function (url) {
+                _this.imgsource = url;
+            });
+            this.presentLoadingDefault();
+        }
+        catch (err) {
+            console.log(err);
+        }
     };
     SpotinfoPage.prototype.darLike = function () {
         var _this = this;
@@ -507,9 +560,10 @@ SpotinfoPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-spotinfo',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/spotinfo/spotinfo.html"*/'<!--\n  Generated template for the SpotinfoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>spotinfo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n    <!-- AQUI VA LA IMAGEN\n    <img src="source"/>\n    -->\n    <img [src]="imgsource" *ngIf="imgsource">\n\n    <ion-card-content>\n      <ion-card-title>\n        {{tittle}}\n      </ion-card-title>\n      <p>\n        Author: {{author}}\n      </p>\n      <p>\n        {{description}}\n      </p>\n    </ion-card-content>\n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear big color="blue" icon-start (click)="darLike()">\n          <ion-icon name="thumbs-up"></ion-icon>\n          {{likes}}\n        </button>\n      </ion-col>\n\n      <ion-col text-center>\n        <button ion-button clear big color="cyan" icon-start>\n          <ion-icon name="share"></ion-icon>\n          share !\n        </button>\n      </ion-col>\n\n      <ion-col text-end>\n        <button ion-button clear big color="danger" icon-start (click)="darDislikes()">\n          <ion-icon name="thumbs-down"></ion-icon>\n          {{dislikes}}\n        </button>\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/spotinfo/spotinfo.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]])
 ], SpotinfoPage);
 
 //# sourceMappingURL=spotinfo.js.map
@@ -798,8 +852,8 @@ var HomePage = (function () {
                     var pos_marker = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["d" /* LatLng */](parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
                     var marker = {
                         position: pos_marker,
-                        title: String(localdb[i]["description"]),
-                        animation: __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["b" /* GoogleMapsAnimation */].DROP
+                        //title: String(localdb[i]["description"]),
+                        animation: __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["b" /* GoogleMapsAnimation */].DROP,
                     };
                     _this.map.addMarker(marker).then(function (marker) {
                         marker.on(__WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* GoogleMapsEvent */].MARKER_CLICK).subscribe(function (res) {
@@ -816,52 +870,10 @@ var HomePage = (function () {
                 _loop_1(i);
             }
         });
-        /*
-        for(let i = 0; i < this.items[0].length; i++){
-          let sport = String(this.items[0][i][0]);
-          console.log(this.storage.get(this.items[0][i][0]));
-          if (sport == String(what)){
-            let pos_parcial = String(this.items[0][i][1]);
-            let pos_parcial_split = pos_parcial.split(",");
-            let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
-            let marker: MarkerOptions = {
-              position: pos_marker,
-              title: String(this.items[0][i][2]),
-              animation: GoogleMapsAnimation.DROP
-            };
-            this.map.addMarker(marker);
-          }
-        }
-    */
     };
     HomePage.prototype.ionViewDidLoad = function () {
         this.user_info = this.navParams.get('datos');
         this.obtenerPosicion();
-        //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
-        /*
-            this.http.get('https://spottel335.firebaseio.com/.json')
-              .map(res => res.json()).subscribe(data => {
-              this.items.push(data);
-              console.log(this.items);
-              //SET KEYS
-              for (let i = 0; this.items[0].length; i++){
-                this.storage.set(this.items[0][i][0],[]);
-              }
-              //FULLKEYS
-              for(let i = 0; i < this.items[0].length; i++){
-                let arrtmp = [this.items[0][i][1],this.items[0][i][2]]; // VALUE FROM JSON
-                console.log(arrtmp);
-                let keyvalue = this.storage.get(this.items[0][i][1]);     //VALUE FROM STORAGE
-                keyvalue.then( (value) => {
-                  value.push([this.items[0][i][1], this.items[0][i][2]]);
-                  this.storage.set(this.items[0][i][0], value);
-                  console.log(value);
-                }).catch((err) => {
-                  console.log(err);
-                });           //PUSH TO STORAGE
-              }
-            });
-        */
     };
     HomePage.prototype.obtenerPosicion = function () {
         var _this = this;
@@ -905,10 +917,10 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Demo SPOT\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div id=\'map\'>\n      <div>\n        <button ion-button (click)="goto_list()" onclick="goto_list()"> SET SPORT</button>\n        <button ion-button (click)="goto_country()" onclick="goto_country()">Set country </button>\n        <button ion-button (click)="goto_new_spot()" >Send a spot</button>\n      </div>\n  </div>\n\n  <!--\n\n  <ion-list class="accordion-list">\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n        {{ item.name }}\n      </button>\n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">\n          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n          {{ child.name }}\n          </button>\n          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase >{{child.information}}</p>\n            <button ion-button outline item-end (click)="marker(child.name)">{{child.information}}</button>\n          </ion-item>\n\n        </ion-list-header>\n\n      </ion-list>\n    </ion-list-header>\n  </ion-list>\n</ion-content>\n-->\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title text-center>\n      Spot\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div id=\'map\'>\n      <div>\n        <ion-row no-padding >\n          <ion-col >\n            <button ion-button (click)="goto_list()" onclick="goto_list()">\n              <ion-icon name="star"></ion-icon>\n              SET SPORT</button>\n          </ion-col>\n          <ion-col text-center>\n            <button ion-button (click)="goto_country()" onclick="goto_country()">\n              <ion-icon name="locate"></ion-icon>\n              Set country </button>\n          </ion-col>\n          <ion-col text-end>\n            <button ion-button (click)="goto_new_spot()" >\n              <ion-icon name="send"></ion-icon>\n              Send a spot</button>\n          </ion-col>\n        </ion-row>\n      </div>\n  </div>\n\n  <!--\n\n  <ion-list class="accordion-list">\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n        {{ item.name }}\n      </button>\n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">\n          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n          {{ child.name }}\n          </button>\n          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase >{{child.information}}</p>\n            <button ion-button outline item-end (click)="marker(child.name)">{{child.information}}</button>\n          </ion-item>\n\n        </ion-list-header>\n\n      </ion-list>\n    </ion-list-header>\n  </ion-list>\n</ion-content>\n-->\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
         __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["a" /* GoogleMaps */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
@@ -1151,7 +1163,7 @@ var MyApp = (function () {
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map

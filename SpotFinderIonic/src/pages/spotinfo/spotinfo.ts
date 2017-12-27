@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {IonicPage, LoadingController, NavController, NavParams} from 'ionic-angular';
 
 import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
 import {FirebaseListObservable} from "angularfire2/database-deprecated";
@@ -41,8 +41,28 @@ export class SpotinfoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               private db: AngularFireDatabase,
-              public alertCtrl: AlertController) {
+              public alertCtrl: AlertController,
+              public loadingCtrl: LoadingController) {
   }
+
+
+  presentLoadingDefault(){
+    let loading = this.loadingCtrl.create({
+      // content: 'Please wait... working !',
+      content:`
+      <div class="custom-spinner-container">
+      <p>Loading content... please wait</p>
+        <div class="custom-spinner-box"></div>
+      </div>`,
+    });
+    loading.present();
+    setTimeout(()=>{
+      loading.dismiss();
+    },2000);
+  }
+
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SpotinfoPage');
@@ -72,6 +92,7 @@ export class SpotinfoPage {
         .getDownloadURL().then(url => {
         this.imgsource = url;
       })
+      this.presentLoadingDefault();
     }
     catch (err){
       console.log(err);

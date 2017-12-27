@@ -268,10 +268,12 @@ export class HomePage {
           let pos_parcial = String(localdb[i]["location"]);
           let pos_parcial_split = pos_parcial.split(",");
           let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
+
+
           let marker: MarkerOptions = {
             position: pos_marker,
-            title: String(localdb[i]["description"]),
-            animation: GoogleMapsAnimation.DROP
+            //title: String(localdb[i]["description"]),
+            animation: GoogleMapsAnimation.DROP,
           };
           this.map.addMarker(marker).then(marker => {
             marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(res => {
@@ -287,23 +289,6 @@ export class HomePage {
     });
 
 
-    /*
-    for(let i = 0; i < this.items[0].length; i++){
-      let sport = String(this.items[0][i][0]);
-      console.log(this.storage.get(this.items[0][i][0]));
-      if (sport == String(what)){
-        let pos_parcial = String(this.items[0][i][1]);
-        let pos_parcial_split = pos_parcial.split(",");
-        let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
-        let marker: MarkerOptions = {
-          position: pos_marker,
-          title: String(this.items[0][i][2]),
-          animation: GoogleMapsAnimation.DROP
-        };
-        this.map.addMarker(marker);
-      }
-    }
-*/
 
 
 
@@ -315,32 +300,6 @@ export class HomePage {
     this.obtenerPosicion();
 
 
-
-    //SACA DATOS DE GITHUB, OJO QUE DEBE CAMBIAR CON LA LOCACIÓN PENDIENTE!
-/*
-    this.http.get('https://spottel335.firebaseio.com/.json')
-      .map(res => res.json()).subscribe(data => {
-      this.items.push(data);
-      console.log(this.items);
-      //SET KEYS
-      for (let i = 0; this.items[0].length; i++){
-        this.storage.set(this.items[0][i][0],[]);
-      }
-      //FULLKEYS
-      for(let i = 0; i < this.items[0].length; i++){
-        let arrtmp = [this.items[0][i][1],this.items[0][i][2]]; // VALUE FROM JSON
-        console.log(arrtmp);
-        let keyvalue = this.storage.get(this.items[0][i][1]);     //VALUE FROM STORAGE
-        keyvalue.then( (value) => {
-          value.push([this.items[0][i][1], this.items[0][i][2]]);
-          this.storage.set(this.items[0][i][0], value);
-          console.log(value);
-        }).catch((err) => {
-          console.log(err);
-        });           //PUSH TO STORAGE
-      }
-    });
-*/
 
   }
 

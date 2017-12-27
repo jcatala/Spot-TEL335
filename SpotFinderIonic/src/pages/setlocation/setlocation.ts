@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {IonicPage, LoadingController, NavController, NavParams} from 'ionic-angular';
 import { Events } from "ionic-angular";
 
 /**
@@ -19,10 +19,27 @@ export class SetlocationPage {
   searchQuery: string = '';
   items: string[];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public events: Events) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public events: Events,
+              public loadingCtrl: LoadingController) {
     this.initializeItems();
 
   }
+
+  presentLoadingDefault(){
+    let loading = this.loadingCtrl.create({
+      // content: 'Please wait... working !',
+      content:`
+      <div class="custom-spinner-container">
+        <p>Making changes, please wait...</p>
+        <div class="custom-spinner-box"></div>
+      </div>`,
+    });
+    loading.present();
+    setTimeout(()=>{
+      loading.dismiss();
+    },2500);
+  }
+
 
   initializeItems(){
     this.items = [
@@ -48,6 +65,7 @@ export class SetlocationPage {
 
   submit(what){
     this.events.publish('country',what);
+    this.presentLoadingDefault();
     this.navCtrl.pop();
   }
 
