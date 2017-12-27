@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 486:
+/***/ 489:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewspotPageModule", function() { return NewspotPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SetlocationPageModule", function() { return SetlocationPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__newspot__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setlocation__ = __webpack_require__(154);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NewspotPageModule = (function () {
-    function NewspotPageModule() {
+var SetlocationPageModule = (function () {
+    function SetlocationPageModule() {
     }
-    return NewspotPageModule;
+    return SetlocationPageModule;
 }());
-NewspotPageModule = __decorate([
+SetlocationPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__newspot__["a" /* NewspotPage */],
+            __WEBPACK_IMPORTED_MODULE_2__setlocation__["a" /* SetlocationPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__newspot__["a" /* NewspotPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__setlocation__["a" /* SetlocationPage */]),
         ],
     })
-], NewspotPageModule);
+], SetlocationPageModule);
 
-//# sourceMappingURL=newspot.module.js.map
+//# sourceMappingURL=setlocation.module.js.map
 
 /***/ })
 

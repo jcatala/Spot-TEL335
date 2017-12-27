@@ -25,6 +25,7 @@ import {AngularFireModule} from "angularfire2";
 import { CurrentInfoProvider } from '../providers/current-info/current-info';
 import { AngularFireDatabase } from "angularfire2/database";
 import {AngularFireDatabaseModule} from "angularfire2/database";
+import {SpotinfoPage} from "../pages/spotinfo/spotinfo";
 
 
 export const firebaseConfig = {
@@ -45,7 +46,8 @@ firebase.initializeApp(firebaseConfig);
     LoginPage,
     SportlistPage,
     SetlocationPage,
-    NewspotPage
+    NewspotPage,
+    SpotinfoPage
 
   ],
   imports: [
@@ -63,7 +65,8 @@ firebase.initializeApp(firebaseConfig);
     LoginPage,
     SportlistPage,
     SetlocationPage,
-    NewspotPage
+    NewspotPage,
+    SpotinfoPage
   ],
   providers: [
     StatusBar,

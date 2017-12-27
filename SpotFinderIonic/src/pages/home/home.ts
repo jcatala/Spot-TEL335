@@ -34,7 +34,9 @@ import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
 import { FirebaseListObservable } from "angularfire2/database-deprecated";
 import {GooglePlus} from "@ionic-native/google-plus";
 import {NewspotPage} from "../newspot/newspot";
+import {SpotinfoPage} from "../spotinfo/spotinfo";
 
+import {AlertController} from "ionic-angular";
 
 
 declare var google;
@@ -71,7 +73,8 @@ export class HomePage {
               public userInfo: CurrentInfoProvider,
               public db: AngularFireDatabase,
               private googleplus: GooglePlus,
-              public localstorage:Storage) {
+              public localstorage:Storage,
+              public alertCtrl: AlertController) {
 
 
 
@@ -106,13 +109,25 @@ export class HomePage {
 
           }
           else {
-            alert("Please, set county");
+
+            let alert = this.alertCtrl.create({
+              title: "No country set...",
+              message: "Please, set a country !",
+              buttons: ['OK']
+            });
+            alert.present();
+
             this.events.unsubscribe("sport");
           }
         });
       }
       else{
-        alert("Please, set country");
+        let alert = this.alertCtrl.create({
+          title: "No country set...",
+          message: "Please, set a country !",
+          buttons: ['OK']
+        });
+        alert.present();
       }
 
   }
@@ -126,14 +141,30 @@ export class HomePage {
         });
         this.events.subscribe("send", send => {
           if (send != "mandado") {
-            alert("no mandado");
+            let alert = this.alertCtrl.create({
+              title: "ERROR",
+              message: "Error on sending spot :(",
+              buttons: ['OK']
+            });
+            alert.present();
+
           }
           else {
-            alert("Mandado !");
+            let alert = this.alertCtrl.create({
+              title: "Successfull !",
+              message: "New spot available ! ",
+              buttons: ['OK']
+            });
+            alert.present();
           }
         });
       }else{
-        alert("Please, set country");
+        let alert = this.alertCtrl.create({
+          title: "No country set...",
+          message: "Please, set a country !",
+          buttons: ['OK']
+        });
+        alert.present();
       }
 
   }
@@ -143,7 +174,15 @@ export class HomePage {
     this.navCtrl.push(SetlocationPage);
     this.events.subscribe('country', country => {
       this.country = country;
-      alert(this.country);
+
+      let alert = this.alertCtrl.create({
+        title: "New country set!",
+        message: "Current country: "+ this.country,
+        buttons: ['OK']
+      });
+      alert.present();
+
+
       this.getJson();
       this.events.unsubscribe('country');
     })
@@ -179,13 +218,6 @@ export class HomePage {
 
 
 
-    let pos2: LatLng = new LatLng(-33,-75);
-    let mk: MarkerOptions = {
-      position: pos2,
-      title: "probando12"
-    };
-
-    this.map.addMarker(mk);
  /*   let latitude = total[0];
     let longitude = total[1];
     let pos3: LatLng = new LatLng(latitude, longitude);
@@ -241,7 +273,15 @@ export class HomePage {
             title: String(localdb[i]["description"]),
             animation: GoogleMapsAnimation.DROP
           };
-          this.map.addMarker(marker);
+          this.map.addMarker(marker).then(marker => {
+            marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(res => {
+              this.navCtrl.push(SpotinfoPage,{
+                info: localdb[i]['id'],
+                user: this.user_info,
+                country: this.country
+              });
+            })
+          });
         }
       }
     });
@@ -354,12 +394,6 @@ export class HomePage {
       //camera to pos
       map.moveCamera(position);
       //new marker
-      let markerOptions: MarkerOptions = {
-        position: myPosition,
-        title: 'U here' + myPosition.lat + myPosition.lng
-      };
-
-      map.addMarker(markerOptions);
       //NUEVO EVENTO PRUEBAS:
 
 

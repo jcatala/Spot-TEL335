@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 488:
+/***/ 491:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SportlistPageModule", function() { return SportlistPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpotinfoPageModule", function() { return SpotinfoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sportlist__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__spotinfo__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SportlistPageModule = (function () {
-    function SportlistPageModule() {
+var SpotinfoPageModule = (function () {
+    function SpotinfoPageModule() {
     }
-    return SportlistPageModule;
+    return SpotinfoPageModule;
 }());
-SportlistPageModule = __decorate([
+SpotinfoPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__sportlist__["a" /* SportlistPage */],
+            __WEBPACK_IMPORTED_MODULE_2__spotinfo__["a" /* SpotinfoPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sportlist__["a" /* SportlistPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__spotinfo__["a" /* SpotinfoPage */]),
         ],
     })
-], SportlistPageModule);
+], SpotinfoPageModule);
 
-//# sourceMappingURL=sportlist.module.js.map
+//# sourceMappingURL=spotinfo.module.js.map
 
 /***/ })
 

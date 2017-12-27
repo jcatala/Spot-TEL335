@@ -12,6 +12,7 @@ import {stringify} from "@angular/core/src/util";
 import { GooglePlus } from "@ionic-native/google-plus";
 import firebase from 'firebase';
 
+import {Camera, CameraOptions} from "@ionic-native/camera";
 
 
 /**
@@ -46,11 +47,18 @@ export class NewspotPage {
 
   user_info: {};
 
+  picdata: any;
+  picurl: any;
+  mypicref: any;
+
+
+
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public db:AngularFireDatabase,
               public events: Events,
               public geolocation: Geolocation,
-              private googleplus: GooglePlus) {
+              private googleplus: GooglePlus,
+              private camera: Camera) {
   }
 
   ionViewDidLoad() {
@@ -62,6 +70,7 @@ export class NewspotPage {
 
     this.tasksred = this.db.list(String(this.location));
 
+    this.mypicref = firebase.storage().ref('/' + this.location);
 
 
   }
@@ -105,6 +114,23 @@ export class NewspotPage {
 
   }
 
+  capture(){
+
+    const cameraOptions: CameraOptions = {
+      quality: 50,
+      destinationType: this.camera.DestinationType.DATA_URL,
+      encodingType: this.camera.EncodingType.JPEG,
+      mediaType: this.camera.MediaType.PICTURE,
+    };
+
+    this.camera.getPicture(cameraOptions)
+      .then((imagedata) => {
+        this.picurl = 'data:image/jpeg;base64' + imagedata;
+      },err => {
+        console.log(err);
+      });
+
+  }
 
 
 

@@ -1,11 +1,11 @@
 {
-    "CoreLocation.framework": 2,
+    "CoreLocation.framework": 3,
     "Accelerate.framework": 1,
     "CoreData.framework": 1,
     "CoreTelephony.framework": 1,
     "CoreText.framework": 2,
     "GLKit.framework": 1,
-    "ImageIO.framework": 1,
+    "ImageIO.framework": 2,
     "libc++.tbd": 1,
     "libz.tbd": 3,
     "OpenGLES.framework": 1,
@@ -16,5 +16,6 @@
     "AddressBook.framework": 1,
     "SafariServices.framework": 2,
     "Security.framework": 1,
-    "libz.dylib": 1
+    "libz.dylib": 1,
+    "AVFoundation.framework": 1
 }

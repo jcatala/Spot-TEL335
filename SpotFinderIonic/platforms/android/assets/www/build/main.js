@@ -1,15 +1,15 @@
-webpackJsonp([4],{
+webpackJsonp([5],{
 
-/***/ 151:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_firebase__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_storage__ = __webpack_require__(116);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -119,22 +119,22 @@ LoginPage = __decorate([
         selector: 'page-login',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div *ngIf="isLoggedIn; else loginTemplate">\n    <h1>Welcome, {{displayName}}!</h1>\n    <p>Email: {{email}}<br>\n      Family Name: {{familyName}}<br>\n      Given Name: {{givenName}}<br>\n      User ID: {{userId}}</p>\n    <p><ion-avatar item-left>\n      <img src="{{imageUrl}}">\n    </ion-avatar></p>\n    <p><button ion-button (click)="logout()">Logout From Google</button></p>\n  </div>\n\n  <ng-template #loginTemplate>\n    <h1>Please Login to see your Google Account Information</h1>\n    <p><button ion-button icon-left (click)="logingoogle()">Login With Google</button></p>\n  </ng-template>\n\n  <div>\n    <button ion-button icon-left (click)="logingoogle()" block outline >\n      <ion-icon name="logo-googleplus">\n        Entra con gugul\n      </ion-icon>\n    </button>\n\n    <button ion-button icon-left (click)="loginfb()" block outline >\n      <ion-icon name="logo-facebook">\n        Entra con el feibu\n      </ion-icon>\n    </button>\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/login/login.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_plus__["a" /* GooglePlus */],
         __WEBPACK_IMPORTED_MODULE_5__ionic_storage__["b" /* Storage */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], LoginPage);
 
 //# sourceMappingURL=login.js.map
 
 /***/ }),
 
-/***/ 152:
+/***/ 153:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SportlistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -172,20 +172,20 @@ SportlistPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-sportlist',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/'<!--\n  Generated template for the SportlistPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>sportlist</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-list>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="http://pngimg.com/uploads/basketball/basketball_PNG1099.png?i=1">\n      </ion-thumbnail>\n      <h2>Basketball</h2>\n      <p>Basketball courts</p>\n      <button ion-button clear item-end (click)="submit(\'Basketball\')">Find it!</button>\n    </ion-item>\n  </ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/sportlist/sportlist.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], SportlistPage);
 
 //# sourceMappingURL=sportlist.js.map
 
 /***/ }),
 
-/***/ 153:
+/***/ 154:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SetlocationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -239,23 +239,26 @@ SetlocationPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-setlocation',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/setlocation/setlocation.html"*/'<!--\n  Generated template for the SetlocationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>setlocation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n  <ion-list>\n\n    <button *ngFor="let item of items" ion-item (click)="submit(item)">\n      {{item}}\n    </button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/setlocation/setlocation.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], SetlocationPage);
 
 //# sourceMappingURL=setlocation.js.map
 
 /***/ }),
 
-/***/ 154:
+/***/ 155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewspotPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_firebase__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_firebase__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(468);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -271,6 +274,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 /**
  * Generated class for the NewspotPage page.
  *
@@ -278,13 +283,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var NewspotPage = (function () {
-    function NewspotPage(navCtrl, navParams, db, events, geolocation, googleplus) {
+    function NewspotPage(navCtrl, navParams, db, events, geolocation, googleplus, camera) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.db = db;
         this.events = events;
         this.geolocation = geolocation;
         this.googleplus = googleplus;
+        this.camera = camera;
     }
     NewspotPage.prototype.ionViewDidLoad = function () {
         console.log('Cargado!');
@@ -292,6 +298,7 @@ var NewspotPage = (function () {
         //setea location
         this.location = this.navParams.get("location").toLowerCase();
         this.tasksred = this.db.list(String(this.location));
+        this.mypicref = __WEBPACK_IMPORTED_MODULE_5_firebase___default.a.storage().ref('/' + this.location);
     };
     NewspotPage.prototype.submit = function () {
         var _this = this;
@@ -325,25 +332,158 @@ var NewspotPage = (function () {
             this.navCtrl.pop();
         }
     };
+    NewspotPage.prototype.capture = function () {
+        var _this = this;
+        var cameraOptions = {
+            quality: 50,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE,
+        };
+        this.camera.getPicture(cameraOptions)
+            .then(function (imagedata) {
+            _this.picurl = 'data:image/jpeg;base64' + imagedata;
+        }, function (err) {
+            console.log(err);
+        });
+    };
     return NewspotPage;
 }());
 NewspotPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-newspot',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/'<!--\n  Generated template for the NewspotPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>newspot</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-label>Sport!</ion-label>\n      <ion-select [(ngModel)]="sport">\n        <ion-option value="Basketball">Basketball</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" [(ngModel)]="descr" placeholder="Descr"></ion-input>\n    </ion-item>\n  </ion-list>\n\n <button ion-button (click)="submit()">Send it !</button>\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/,
+        selector: 'page-newspot',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/'<!--\n  Generated template for the NewspotPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>newspot</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-label>Sport!</ion-label>\n      <ion-select [(ngModel)]="sport">\n        <ion-option value="Basketball">Basketball</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" [(ngModel)]="descr" placeholder="Descr"></ion-input>\n    </ion-item>\n  </ion-list>\n\n <button ion-button (click)="submit()">Send it !</button>\n\n  <button ion-button (click)="capture()">\n    IMAGENXDXD\n  </button>\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/newspot/newspot.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
         __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
-        __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */]])
+        __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */],
+        __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__["a" /* Camera */]])
 ], NewspotPage);
 
 //# sourceMappingURL=newspot.js.map
 
 /***/ }),
 
-/***/ 164:
+/***/ 156:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpotinfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(59);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the SpotinfoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SpotinfoPage = (function () {
+    function SpotinfoPage(navCtrl, navParams, db, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.db = db;
+        this.alertCtrl = alertCtrl;
+        this.dislikedado = 0;
+        this.likedado = 0;
+    }
+    SpotinfoPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad SpotinfoPage');
+        console.log(this.navParams.get('info'));
+        console.log(this.navParams.get('user'));
+        this.id = this.navParams.get('info');
+        this.country = this.navParams.get('country').toLowerCase();
+        this.user = this.navParams.get('user');
+        this.db.database.ref('/' + this.country + '/' + this.id)
+            .once('value', function (snapshot) {
+            console.log(snapshot.val());
+            _this.likes = snapshot.val()['likes'];
+            _this.dislikes = snapshot.val()['dislikes'];
+            _this.description = snapshot.val()['description'];
+            _this.author = snapshot.val()['author'];
+        });
+        //ASIGNACION DE VALORES
+    };
+    SpotinfoPage.prototype.darLike = function () {
+        var _this = this;
+        if (this.likedado == 0) {
+            this.db.database.ref('/' + this.country + '/' + this.id)
+                .once('value', function (snapshot) {
+                var val = snapshot.val();
+                _this.likes = parseFloat(val['likes']) + 1;
+                _this.likedado = 1;
+                snapshot.ref.update({
+                    likes: _this.likes
+                }, function (err) {
+                    console.log(err);
+                });
+            });
+        }
+        else {
+            var alert_1 = this.alertCtrl.create({
+                title: "Already done !",
+                message: "One like per 'day' !",
+                buttons: ['OK']
+            });
+            alert_1.present();
+        }
+    };
+    SpotinfoPage.prototype.darDislikes = function () {
+        var _this = this;
+        if (this.dislikedado == 0) {
+            this.db.database.ref('/' + this.country + '/' + this.id)
+                .once('value', function (snapshot) {
+                var val = snapshot.val();
+                _this.dislikes = parseFloat(val['dislikes']) + 1;
+                _this.dislikedado = 1;
+                snapshot.ref.update({
+                    dislikes: _this.dislikes
+                }, function (err) {
+                    console.log(err);
+                });
+            });
+        }
+        else {
+            var alert_2 = this.alertCtrl.create({
+                title: "Already done !",
+                message: "One like per 'day' !",
+                buttons: ['OK']
+            });
+            alert_2.present();
+        }
+    };
+    return SpotinfoPage;
+}());
+SpotinfoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-spotinfo',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/spotinfo/spotinfo.html"*/'<!--\n  Generated template for the SpotinfoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>spotinfo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n    <!-- AQUI VA LA IMAGEN\n    <img src="source"/>\n    -->\n    <ion-card-content>\n      <ion-card-title>\n        {{tittle}}\n      </ion-card-title>\n      <p>\n        Author: {{author}}\n      </p>\n      <p>\n        {{description}}\n      </p>\n    </ion-card-content>\n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear big color="blue" icon-start (click)="darLike()">\n          <ion-icon name="thumbs-up"></ion-icon>\n          {{likes}}\n        </button>\n      </ion-col>\n\n      <ion-col text-center>\n        <button ion-button clear big color="cyan" icon-start>\n          <ion-icon name="share"></ion-icon>\n          share !\n        </button>\n      </ion-col>\n\n      <ion-col text-end>\n        <button ion-button clear big color="danger" icon-start (click)="darDislikes()">\n          <ion-icon name="thumbs-down"></ion-icon>\n          {{dislikes}}\n        </button>\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/spotinfo/spotinfo.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], SpotinfoPage);
+
+//# sourceMappingURL=spotinfo.js.map
+
+/***/ }),
+
+/***/ 166:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -356,28 +496,32 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 164;
+webpackEmptyAsyncContext.id = 166;
 
 /***/ }),
 
-/***/ 206:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/login/login.module": [
-		485,
-		3
+		487,
+		4
 	],
 	"../pages/newspot/newspot.module": [
-		486,
-		2
+		488,
+		3
 	],
 	"../pages/setlocation/setlocation.module": [
-		487,
-		1
+		489,
+		2
 	],
 	"../pages/sportlist/sportlist.module": [
-		488,
+		490,
+		1
+	],
+	"../pages/spotinfo/spotinfo.module": [
+		491,
 		0
 	]
 };
@@ -392,30 +536,31 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 206;
+webpackAsyncContext.id = 208;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 209:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sportlist_sportlist__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__setlocation_setlocation__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_current_info_current_info__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__newspot_newspot__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sportlist_sportlist__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__setlocation_setlocation__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_current_info_current_info__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__newspot_newspot__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__spotinfo_spotinfo__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -440,8 +585,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var HomePage = (function () {
-    function HomePage(navCtrl, navParams, geolocation, googleMaps, events, http, storage, userInfo, db, googleplus, localstorage) {
+    function HomePage(navCtrl, navParams, geolocation, googleMaps, events, http, storage, userInfo, db, googleplus, localstorage, alertCtrl) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -454,6 +601,7 @@ var HomePage = (function () {
         this.db = db;
         this.googleplus = googleplus;
         this.localstorage = localstorage;
+        this.alertCtrl = alertCtrl;
         this.items = [];
         this.country = "null";
         this.tasks = db.list('/chile-pruebas');
@@ -480,16 +628,27 @@ var HomePage = (function () {
                     //
                 }
                 else {
-                    alert("Please, set county");
+                    var alert_1 = _this.alertCtrl.create({
+                        title: "No country set...",
+                        message: "Please, set a country !",
+                        buttons: ['OK']
+                    });
+                    alert_1.present();
                     _this.events.unsubscribe("sport");
                 }
             });
         }
         else {
-            alert("Please, set country");
+            var alert_2 = this.alertCtrl.create({
+                title: "No country set...",
+                message: "Please, set a country !",
+                buttons: ['OK']
+            });
+            alert_2.present();
         }
     };
     HomePage.prototype.goto_new_spot = function () {
+        var _this = this;
         var spot = null;
         if (this.country != "null") {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__newspot_newspot__["a" /* NewspotPage */], {
@@ -498,15 +657,30 @@ var HomePage = (function () {
             });
             this.events.subscribe("send", function (send) {
                 if (send != "mandado") {
-                    alert("no mandado");
+                    var alert_3 = _this.alertCtrl.create({
+                        title: "ERROR",
+                        message: "Error on sending spot :(",
+                        buttons: ['OK']
+                    });
+                    alert_3.present();
                 }
                 else {
-                    alert("Mandado !");
+                    var alert_4 = _this.alertCtrl.create({
+                        title: "Successfull !",
+                        message: "New spot available ! ",
+                        buttons: ['OK']
+                    });
+                    alert_4.present();
                 }
             });
         }
         else {
-            alert("Please, set country");
+            var alert_5 = this.alertCtrl.create({
+                title: "No country set...",
+                message: "Please, set a country !",
+                buttons: ['OK']
+            });
+            alert_5.present();
         }
     };
     HomePage.prototype.goto_country = function () {
@@ -514,7 +688,12 @@ var HomePage = (function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__setlocation_setlocation__["a" /* SetlocationPage */]);
         this.events.subscribe('country', function (country) {
             _this.country = country;
-            alert(_this.country);
+            var alert = _this.alertCtrl.create({
+                title: "New country set!",
+                message: "Current country: " + _this.country,
+                buttons: ['OK']
+            });
+            alert.present();
             _this.getJson();
             _this.events.unsubscribe('country');
         });
@@ -538,12 +717,6 @@ var HomePage = (function () {
     HomePage.prototype.marker = function (what) {
         var _this = this;
         this.map.clear();
-        var pos2 = new __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["d" /* LatLng */](-33, -75);
-        var mk = {
-            position: pos2,
-            title: "probando12"
-        };
-        this.map.addMarker(mk);
         /*   let latitude = total[0];
            let longitude = total[1];
            let pos3: LatLng = new LatLng(latitude, longitude);
@@ -585,7 +758,7 @@ var HomePage = (function () {
                 return false;
             });
         }).then(function () {
-            for (var i = 0; i < localdb.length; i++) {
+            var _loop_1 = function (i) {
                 if (localdb[i]["sport"] == String(what)) {
                     var pos_parcial = String(localdb[i]["location"]);
                     var pos_parcial_split = pos_parcial.split(",");
@@ -595,8 +768,19 @@ var HomePage = (function () {
                         title: String(localdb[i]["description"]),
                         animation: __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["b" /* GoogleMapsAnimation */].DROP
                     };
-                    _this.map.addMarker(marker);
+                    _this.map.addMarker(marker).then(function (marker) {
+                        marker.on(__WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["c" /* GoogleMapsEvent */].MARKER_CLICK).subscribe(function (res) {
+                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__spotinfo_spotinfo__["a" /* SpotinfoPage */], {
+                                info: localdb[i]['id'],
+                                user: _this.user_info,
+                                country: _this.country
+                            });
+                        });
+                    });
                 }
+            };
+            for (var i = 0; i < localdb.length; i++) {
+                _loop_1(i);
             }
         });
         /*
@@ -681,11 +865,6 @@ var HomePage = (function () {
             //camera to pos
             map.moveCamera(position);
             //new marker
-            var markerOptions = {
-                position: myPosition,
-                title: 'U here' + myPosition.lat + myPosition.lng
-            };
-            map.addMarker(markerOptions);
             //NUEVO EVENTO PRUEBAS:
         });
     };
@@ -695,24 +874,25 @@ HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-home',template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Demo SPOT\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div id=\'map\'>\n      <div>\n        <button ion-button (click)="goto_list()" onclick="goto_list()"> SET SPORT</button>\n        <button ion-button (click)="goto_country()" onclick="goto_country()">Set country </button>\n        <button ion-button (click)="goto_new_spot()" >Send a spot</button>\n      </div>\n  </div>\n\n  <!--\n\n  <ion-list class="accordion-list">\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n        {{ item.name }}\n      </button>\n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <button ion-item (click)="toggleItem(i,j)" detail-none class="child-item" *ngIf="child.children">\n          <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n          <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n          {{ child.name }}\n          </button>\n          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase >{{child.information}}</p>\n            <button ion-button outline item-end (click)="marker(child.name)">{{child.information}}</button>\n          </ion-item>\n\n        </ion-list-header>\n\n      </ion-list>\n    </ion-list-header>\n  </ion-list>\n</ion-content>\n-->\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
         __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_maps__["a" /* GoogleMaps */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
         __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Http */],
         __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */],
         __WEBPACK_IMPORTED_MODULE_9__providers_current_info_current_info__["a" /* CurrentInfoProvider */],
         __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__["a" /* AngularFireDatabase */],
         __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__["a" /* GooglePlus */],
-        __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */]])
+        __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
 ], HomePage);
 
 //# sourceMappingURL=home.js.map
 
 /***/ }),
 
-/***/ 212:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -758,13 +938,13 @@ CurrentInfoProvider = __decorate([
 
 /***/ }),
 
-/***/ 308:
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(325);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -772,7 +952,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 324:
+/***/ 325:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -780,31 +960,33 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(307);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(486);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_geolocation__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_google_maps__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_google_maps__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_storage__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_login_login__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sportlist_sportlist__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_setlocation_setlocation__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_firebase__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_login_login__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sportlist_sportlist__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_setlocation_setlocation__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_firebase__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_firebase__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angularfire2__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_current_info_current_info__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angularfire2_database__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_current_info_current_info__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angularfire2_database__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_spotinfo_spotinfo__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -848,31 +1030,34 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_12__pages_login_login__["a" /* LoginPage */],
             __WEBPACK_IMPORTED_MODULE_13__pages_sportlist_sportlist__["a" /* SportlistPage */],
             __WEBPACK_IMPORTED_MODULE_14__pages_setlocation_setlocation__["a" /* SetlocationPage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__["a" /* NewspotPage */]
+            __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__["a" /* NewspotPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_spotinfo_spotinfo__["a" /* SpotinfoPage */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_9__angular_http__["b" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/newspot/newspot.module#NewspotPageModule', name: 'NewspotPage', segment: 'newspot', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/setlocation/setlocation.module#SetlocationPageModule', name: 'SetlocationPage', segment: 'setlocation', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/sportlist/sportlist.module#SportlistPageModule', name: 'SportlistPage', segment: 'sportlist', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/sportlist/sportlist.module#SportlistPageModule', name: 'SportlistPage', segment: 'sportlist', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/spotinfo/spotinfo.module#SpotinfoPageModule', name: 'SpotinfoPage', segment: 'spotinfo', priority: 'low', defaultHistory: [] }
                 ]
             }),
             __WEBPACK_IMPORTED_MODULE_10__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
             __WEBPACK_IMPORTED_MODULE_17_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseConfig),
             __WEBPACK_IMPORTED_MODULE_19_angularfire2_database__["b" /* AngularFireDatabaseModule */]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
             __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
             __WEBPACK_IMPORTED_MODULE_12__pages_login_login__["a" /* LoginPage */],
             __WEBPACK_IMPORTED_MODULE_13__pages_sportlist_sportlist__["a" /* SportlistPage */],
             __WEBPACK_IMPORTED_MODULE_14__pages_setlocation_setlocation__["a" /* SetlocationPage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__["a" /* NewspotPage */]
+            __WEBPACK_IMPORTED_MODULE_15__pages_newspot_newspot__["a" /* NewspotPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_spotinfo_spotinfo__["a" /* SpotinfoPage */]
         ],
         providers: [
             __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -880,7 +1065,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__ionic_native_geolocation__["a" /* Geolocation */],
             __WEBPACK_IMPORTED_MODULE_8__ionic_native_google_maps__["a" /* GoogleMaps */],
             __WEBPACK_IMPORTED_MODULE_11__ionic_native_google_plus__["a" /* GooglePlus */],
-            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
             __WEBPACK_IMPORTED_MODULE_18__providers_current_info_current_info__["a" /* CurrentInfoProvider */],
             __WEBPACK_IMPORTED_MODULE_19_angularfire2_database__["a" /* AngularFireDatabase */]
         ]
@@ -891,16 +1076,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 484:
+/***/ 486:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(307);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(152);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -930,12 +1115,12 @@ var MyApp = (function () {
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/jose/usm/2017-2/appweb/proyectoSpot/SpotFinderIonic/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ })
 
-},[308]);
+},[309]);
 //# sourceMappingURL=main.js.map
