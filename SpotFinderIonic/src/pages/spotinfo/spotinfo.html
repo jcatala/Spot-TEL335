@@ -6,8 +6,8 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>spotinfo</ion-title>
+  <ion-navbar color="primary">
+    <ion-title>About the spot !</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -34,7 +34,7 @@
     </ion-card-content>
     <ion-row no-padding>
       <ion-col>
-        <button ion-button clear big color="blue" icon-start (click)="darLike()">
+        <button ion-button clear big [color]="secondary" icon-start (click)="darLike()">
           <ion-icon name="thumbs-up"></ion-icon>
           {{likes}}
         </button>

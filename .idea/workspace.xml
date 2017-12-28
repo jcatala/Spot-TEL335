@@ -4,25 +4,28 @@
     <list default="true" id="5e3a3d71-aec6-4204-9655-c9a440ecb6dc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/.sourcemaps/main.js.map" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/config.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.css" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.css" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/main.js.map" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/assets/www/build/vendor.js.map" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/SpotFinderIonic/platforms/android/res/xml/config.xml" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" />
-      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" />
-      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" />
-      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html" />
-      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss" afterPath="$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss" />
+      <change beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.css" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.css" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/main.js.map" />
       <change beforePath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/SpotFinderIonic/www/build/vendor.js.map" />
@@ -47,11 +50,9 @@
           <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1206">
-                  <caret line="302" column="0" lean-forward="true" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+                <state relative-caret-position="0">
+                  <caret line="291" column="12" lean-forward="false" selection-start-line="291" selection-start-column="12" selection-end-line="291" selection-end-column="12" />
                   <folding>
-                    <element signature="e#0#42#0" expanded="true" />
-                    <element signature="e#928#1003#0" expanded="true" />
                     <element signature="e#5240#5765#0" expanded="false" />
                     <element signature="e#5793#6254#0" expanded="false" />
                   </folding>
@@ -62,20 +63,20 @@
           <file leaf-file-name="spotinfo.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-198">
-                  <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+                <state relative-caret-position="-162">
+                  <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
                   <folding>
-                    <element signature="e#541#1296#0" expanded="false" />
+                    <element signature="e#595#1350#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -85,7 +86,7 @@
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                  <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -94,8 +95,8 @@
           <file leaf-file-name="newspot.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="101">
-                  <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -104,7 +105,7 @@
           <file leaf-file-name="newspot.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="864">
+                <state relative-caret-position="1278">
                   <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
@@ -118,18 +119,18 @@
           <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="setlocation.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="setlocation.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+                <state relative-caret-position="-198">
+                  <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
                     <marker date="1514348906256" expanded="true" signature="879:985" ph="..." />
@@ -141,18 +142,8 @@
           <file leaf-file-name="setlocation.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-61">
-                  <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sportlist.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -165,21 +156,22 @@
           <file leaf-file-name="newspot.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
+                <state relative-caret-position="1152">
                   <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
-                    <marker date="1514410572626" expanded="true" signature="1821:1881" ph="..." />
+                    <marker date="1514410572626" expanded="true" signature="2324:2328" ph="{...}" />
+                    <marker date="1514410572626" expanded="true" signature="2719:3402" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="variables.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <state relative-caret-position="126">
+                  <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -188,8 +180,8 @@
           <file leaf-file-name="spotinfo.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+                <state relative-caret-position="918">
+                  <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#42#0" expanded="true" />
                     <marker date="1514350132409" expanded="true" signature="1271:1375" ph="..." />
@@ -198,11 +190,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sportlist.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sportlist.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1195">
-                  <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -233,24 +225,24 @@
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sport-list/sport-list.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sport-list/sport-list.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.module.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.module.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/providers/current-info/current-info.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts" />
-        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html" />
         <option value="$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html" />
+        <option value="$PROJECT_DIR$/SpotFinderIonic/config.xml" />
       </list>
     </option>
   </component>
@@ -287,6 +279,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,8 +405,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,19 +472,20 @@
       <workItem from="1513034713177" duration="80000" />
       <workItem from="1513104441436" duration="13549000" />
       <workItem from="1513176072214" duration="4410000" />
-      <workItem from="1514309494646" duration="28832000" />
+      <workItem from="1514309494646" duration="31444000" />
+      <workItem from="1514438476692" duration="2033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158731000" />
+    <option name="totallyTimeSpent" value="163376000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06830309" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13871308" sideWeight="0.49138921" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.068561874" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859911" sideWeight="0.49138921" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -627,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="92" column="31" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/app/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -674,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="148" column="21" lean-forward="false" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,15 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,14 +711,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -759,24 +719,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="918">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1514348906256" expanded="true" signature="879:985" ph="..." />
+            <marker date="1514350132409" expanded="true" signature="1271:1375" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1514410572626" expanded="true" signature="2324:2328" ph="{...}" />
+            <marker date="1514410572626" expanded="true" signature="2719:3402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="302" column="0" lean-forward="true" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="291" column="12" lean-forward="false" selection-start-line="291" selection-start-column="12" selection-end-line="291" selection-end-column="12" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#928#1003#0" expanded="true" />
             <element signature="e#5240#5765#0" expanded="false" />
             <element signature="e#5793#6254#0" expanded="false" />
           </folding>
@@ -785,73 +763,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.ts">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1514350132409" expanded="true" signature="1271:1375" ph="..." />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/sportlist/sportlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="162">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/spotinfo/spotinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="-162">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1514410572626" expanded="true" signature="1821:1881" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
-            <element signature="e#541#1296#0" expanded="false" />
+            <element signature="e#595#1350#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/theme/variables.scss">
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="-902">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/newspot/newspot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpotFinderIonic/src/pages/setlocation/setlocation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1514348906256" expanded="true" signature="879:985" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

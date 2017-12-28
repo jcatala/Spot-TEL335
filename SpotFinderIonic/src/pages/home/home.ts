@@ -269,11 +269,35 @@ export class HomePage {
           let pos_parcial_split = pos_parcial.split(",");
           let pos_marker: LatLng = new LatLng(parseFloat(pos_parcial_split[0]), parseFloat(pos_parcial_split[1]));
 
+          let iconurl: string;
+          if(String(what) == "Parkour"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/parkour50.png";
+          }
+          if(String(what) == "Basketball"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/basket50.png";
+          }
+          if(String(what) == "Football"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/futbol50.png";
+          }
+          if(String(what) == "Tennis"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/tenis50.png";
+          }
+          if(String(what) == "Aggressive Skate"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/agg50.png";
+          }
+          if(String(what) == "Skate"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/skate50.png";
+          }
+          if(String(what) == "BMX"){
+            iconurl = "https://raw.githubusercontent.com/jcatala/Spot-TEL335/dev/pins/bicicleta50.png";
+          }
+
 
           let marker: MarkerOptions = {
             position: pos_marker,
             //title: String(localdb[i]["description"]),
             animation: GoogleMapsAnimation.DROP,
+            icon: iconurl
           };
           this.map.addMarker(marker).then(marker => {
             marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(res => {
